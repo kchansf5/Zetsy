@@ -13,3 +13,104 @@
  *= require_tree .
  *= require_self
  */
+#root{
+  font-family: "Roboto"; sans-serif;
+  font-size: 15px;
+}
+
+.header-logo {
+  color: #f45800;
+}
+
+header button {
+  background: none;
+  color: #f45800;
+  border: 1px solid #f45800;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-size: 14px;
+  padding-bottom: 7px;
+  padding-top: 6px;
+  padding-left: 5px;
+}
+
+button:hover {
+  background-color: #FFF3EE;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+
+}
+.modal-background {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.modal-child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.close-x {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.login-form-box {
+  height: 250px;
+  width: 350px;
+  padding-left: 35px;
+  padding-right: 15px;
+  background: white;
+  position: relative;
+  border: 0.5px solid gray;
+  border-radius: 3px;
+  font-size: 12px;
+  color: #444;
+}
+
+.session-top {
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.session-top button {
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #f45800;
+}
+
+.session-submit {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: white;
+  background-color: #f45800;
+  width: 200px;
+  padding-top: 7px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 15px;
+  text-align: top;
+  border-radius: 3px;
+}
+
+.login-input {
+  padding-bottom: 6px;
+  margin-bottom: 5px;
+  width: 194px;
+  font-size: 12px;
+  color: #333;
+}

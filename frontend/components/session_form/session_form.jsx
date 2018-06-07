@@ -20,7 +20,7 @@ class SessionForm extends React.Component {
   handleSubmit(e) {
     e.preventDefault();
     const user = Object.assign({}, this.state);
-    this.props.processForm(user);
+    this.props.processForm(user).then(this.props.closeModal);
   }
 
   renderErrors() {
@@ -43,13 +43,14 @@ class SessionForm extends React.Component {
     return (
       <div className="login-form-container">
         <form onSubmit={this.handleSubmit} className="login-form-box">
-          Welcome to Etsy Clone!
-          <br/>
-          Please {this.props.formType} or {this.props.navLink}
+          <div className="session-top">
+            {this.props.formType} or {this.props.otherForm}
+          </div>
           {this.renderErrors()}
           <div className="login-form">
             <br/>
-            <label>Username:
+            <label>Email or Username
+              <br/>
               <input type="text"
                 value={this.state.username}
                 onChange={this.update('username')}
@@ -57,7 +58,8 @@ class SessionForm extends React.Component {
               />
             </label>
             <br/>
-            <label>Password:
+            <label>Password
+              <br/>
               <input type="password"
                 value={this.state.password}
                 onChange={this.update('password')}
@@ -65,6 +67,8 @@ class SessionForm extends React.Component {
               />
             </label>
             <br/>
+            <br/>
+
             <input className="session-submit" type="submit" value={this.props.formType} />
           </div>
         </form>
