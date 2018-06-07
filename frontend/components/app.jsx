@@ -20,10 +20,10 @@ const App = () => (
     <Modal />
     <header>
       <Link to="/" className="header-logo">
-        <h2>Etsy</h2>
+        <h2 className="header-logo">Etsy</h2>
       </Link>
       <GreetingContainer />
-      <h3>You will finish this!</h3>
+      <h2>You will finish this!</h2>
     </header>
 
 

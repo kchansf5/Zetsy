@@ -14,12 +14,17 @@
  *= require_self
  */
 #root{
-  font-family: "Roboto"; sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 15px;
 }
 
 .header-logo {
   color: #f45800;
+  font-family: serif;
+  font-size: 25px;
+  text-decoration: none;
+  border: 1px solid gray;
+
 }
 
 header button {
@@ -37,11 +42,12 @@ header button {
 button:hover {
   background-color: #FFF3EE;
 }
+
 header {
   display: flex;
   justify-content: space-between;
-
 }
+
 .modal-background {
   position: fixed;
   top: 0;
