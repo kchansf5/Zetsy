@@ -22,6 +22,13 @@ const App = () => (
       <Link to="/" className="header-logo">
         <div className="logo">Etsy</div>
       </Link>
+      <search className="search">
+        <input type="text" placeholder="Search for items or shops">
+        </input>
+      </search>
+      <button className="search-button">
+        Search
+      </button>
       <GreetingContainer />
       <i class="fas fa-shopping-cart"></i>
       <cart className="cart-text">Cart</cart>
