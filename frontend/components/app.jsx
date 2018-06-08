@@ -12,6 +12,7 @@ import Modal from './modal/modal';
 import GreetingContainer from './greeting/greeting_container';
 import LogInFormContainer from './session_form/login_form_container';
 import SignUpFormContainer from './session_form/signup_form_container';
+import ProductsContainer from './products/products_container';
 import { AuthRoute, ProtectedRoute } from '../util/route_util';
 
 
@@ -22,6 +23,7 @@ const App = () => (
       <Link to="/" className="header-logo">
         <div className="logo">Etsy</div>
       </Link>
+
       <search className="search">
         <input type="text" placeholder="Search for items or shops">
         </input>
@@ -29,11 +31,18 @@ const App = () => (
       <button className="search-button">
         Search
       </button>
+
       <GreetingContainer />
+
       <i class="fas fa-shopping-cart"></i>
       <cart className="cart-text">Cart</cart>
+
     </header>
 
+    <Switch>
+      <Route exact path="/" component={ProductsContainer}/>
+      <Redirect to="/"></Redirect>
+    </Switch>
 
   </div>
 );
