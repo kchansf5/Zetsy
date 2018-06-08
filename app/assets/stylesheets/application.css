@@ -142,6 +142,9 @@ header button {
   margin: 18px 5px 13px 5px;
 }
 
+header button:focus {
+  outline: none;
+}
 
 .top-register-button {
   border: none;
