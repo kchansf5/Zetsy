@@ -21,10 +21,9 @@
 .header-logo {
   color: #f45800;
   font-family: serif;
-  font-size: 25px;
+  font-size: 35px;
   text-decoration: none;
-  border: 1px solid gray;
-
+  padding-left: 15px;
 }
 
 header button {
@@ -39,15 +38,34 @@ header button {
   padding-left: 5px;
 }
 
+.top-register-button {
+  border: none;
+  background-color: white;
+}
+
+.top-register-button:hover {
+  background-color: white;
+  text-decoration: underline;
+}
+
 button:hover {
   background-color: #FFF3EE;
+  cursor: pointer;
 }
 
 header {
   display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: space-between;
+  height: 60px;
+  border-bottom: 1px solid lightgray;
 }
 
+.header-group {
+  display: flex;
+  flex-direction: row;
+}
 .modal-background {
   position: fixed;
   top: 0;
@@ -96,6 +114,11 @@ header {
   font-size: 16px;
   font-weight: 600;
   color: #f45800;
+  padding-left: 2px;
+}
+
+.session-top button:hover{
+  background-color: white;
 }
 
 .session-submit {
@@ -103,6 +126,7 @@ header {
   font-size: 12px;
   color: white;
   background-color: #f45800;
+  border-color: rgba(0, 0, 0, 0.1);
   width: 200px;
   padding-top: 7px;
   padding-bottom: 8px;
@@ -111,6 +135,12 @@ header {
   font-size: 15px;
   text-align: top;
   border-radius: 3px;
+  cursor: pointer;
+}
+
+.session-submit:hover {
+  background-color: #ff6905;
+  border-color: rgba(0, 0, 0, 0.2);
 }
 
 .login-input {

@@ -23,7 +23,6 @@ const App = () => (
         <h2 className="header-logo">Etsy</h2>
       </Link>
       <GreetingContainer />
-      <h2>You will finish this!</h2>
     </header>
 
 
