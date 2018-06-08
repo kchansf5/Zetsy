@@ -23,6 +23,8 @@ const App = () => (
         <div className="logo">Etsy</div>
       </Link>
       <GreetingContainer />
+      <i class="fas fa-shopping-cart"></i>
+      <cart className="cart-text">Cart</cart>
     </header>
 
 

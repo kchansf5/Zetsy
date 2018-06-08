@@ -32,11 +32,18 @@ header {
 }
 
 .fas {
-  margin-left: 10px;
-  margin-right: 5px;
-  font-size: 20px;
+  position: absolute;
+  right: 100px;
+  top: 16px;
+  left: 1275px;
+  font-size: 18px;
   -webkit-text-fill-color: #666666;
   cursor: pointer;
+  border-left: 1px solid lightgray;
+  line-height: 30px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  border-color: #e5e5e5;
 }
 
 .fas:hover {
@@ -57,9 +64,22 @@ a.header-logo {
   margin-top: -18px;
 }
 
-.login-signup {
-  margin-right: 120px;
+.cart-text {
+  position: absolute;
+  margin-top: 5px;
+  right: 124px;
+  color: #888888;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
 }
+
+.login-signup {
+  position: absolute;
+  right: 150px;
+  margin-right: 15px;
+  padding-bottom: 24px;
+}
+
 header button {
   background: none;
   color: #f45800;
@@ -67,11 +87,12 @@ header button {
   border-radius: 3px;
   box-sizing: border-box;
   font-size: 14px;
-  padding: 5px 5px 7px 5px;
+  padding: 5px 9px 7px 9px;
   height: 35px;
   margin-left: 15px;
-  margin: 15px 5px 13px 5px;
+  margin: 18px 5px 13px 5px;
 }
+
 
 .top-register-button {
   border: none;
@@ -101,6 +122,12 @@ button:hover {
 }
 .header-name {
   margin-right: 10px;
+}
+
+.header-group .logout {
+  position: absolute;
+  top: 3px;
+  right: 175px;
 }
 .modal-background {
   position: fixed;
