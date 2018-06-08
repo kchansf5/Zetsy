@@ -85,11 +85,14 @@ a.header-logo {
   outline: none;
   border: 1px solid rgba(0, 0, 0, 0.8);
   background: #FFF;
-  box-shadow: 0 0 0 1000px #fff inset;
+  /*box-shadow: 0 0 0 1000px #fff inset;*/
 }
 
 .search input:focus {
   outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  background: #FFF;
+  box-shadow: 0 0 0 1000px #fff inset;
 }
 
 .search-button {
