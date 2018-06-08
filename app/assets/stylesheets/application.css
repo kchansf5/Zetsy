@@ -18,13 +18,17 @@
   font-size: 15px;
 }
 
+head {
+  height: auto;
+  width: auto;
+}
+
 header {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  height: 60px;
-  border-bottom: 1px solid lightgray;
+  height: 80px;
 }
 
 .fas {
@@ -38,14 +42,24 @@ header {
 .fas:hover {
   -webkit-text-fill-color: black;
 }
-.header-logo {
+
+a.header-logo {
+  height: auto;
+  text-decoration: none;
+}
+.logo {
   color: #f45800;
   font-family: "Song Myung", serif;
-  font-size: 35px;
+  font-size: 40px;
   text-decoration: none;
-  padding-left: 15px;
+  height: 40px;
+  padding-left: 110px;
+  margin-top: -18px;
 }
 
+.login-signup {
+  margin-right: 120px;
+}
 header button {
   background: none;
   color: #f45800;
@@ -83,7 +97,7 @@ button:hover {
 }
 
 .header-group i {
-  margin-top: 20px;
+  /*margin-top: 20px;*/
 }
 .header-name {
   margin-right: 10px;

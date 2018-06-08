@@ -20,7 +20,7 @@ const App = () => (
     <Modal />
     <header>
       <Link to="/" className="header-logo">
-        <h2 className="header-logo">Etsy</h2>
+        <div className="logo">Etsy</div>
       </Link>
       <GreetingContainer />
     </header>
