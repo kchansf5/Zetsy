@@ -27,7 +27,7 @@ class SessionForm extends React.Component {
     return(
       <ul>
         {this.props.errors.map((error, i) => (
-          <li key={`error-${i}`}>
+          <li className="session-errors" key={`error-${i}`}>
             {error}
           </li>
         ))}
@@ -46,7 +46,11 @@ class SessionForm extends React.Component {
           <div className="session-top">
             {this.props.formType} or {this.props.otherForm}
           </div>
-          {this.renderErrors()}
+
+          <div>
+            {this.renderErrors()}
+          </div>
+
           <div className="login-form">
             <br/>
             <label>Email or Username

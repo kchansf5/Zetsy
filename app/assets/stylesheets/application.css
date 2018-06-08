@@ -18,9 +18,29 @@
   font-size: 15px;
 }
 
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  border-bottom: 1px solid lightgray;
+}
+
+.fas {
+  margin-left: 10px;
+  margin-right: 5px;
+  font-size: 20px;
+  -webkit-text-fill-color: #666666;
+  cursor: pointer;
+}
+
+.fas:hover {
+  -webkit-text-fill-color: black;
+}
 .header-logo {
   color: #f45800;
-  font-family: serif;
+  font-family: "Song Myung", serif;
   font-size: 35px;
   text-decoration: none;
   padding-left: 15px;
@@ -33,14 +53,16 @@ header button {
   border-radius: 3px;
   box-sizing: border-box;
   font-size: 14px;
-  padding-bottom: 7px;
-  padding-top: 6px;
-  padding-left: 5px;
+  padding: 5px 5px 7px 5px;
+  height: 35px;
+  margin-left: 15px;
+  margin: 15px 5px 13px 5px;
 }
 
 .top-register-button {
   border: none;
   background-color: white;
+  margin: 0px;
 }
 
 .top-register-button:hover {
@@ -53,18 +75,18 @@ button:hover {
   cursor: pointer;
 }
 
-header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  height: 60px;
-  border-bottom: 1px solid lightgray;
-}
 
 .header-group {
   display: flex;
   flex-direction: row;
+  color: #f45800;
+}
+
+.header-group i {
+  margin-top: 20px;
+}
+.header-name {
+  margin-right: 10px;
 }
 .modal-background {
   position: fixed;
@@ -90,8 +112,14 @@ header {
   cursor: pointer;
 }
 
+.session-errors {
+  color: red;
+  list-style-type: none;
+  margin-left: -40.5px;
+}
+
 .login-form-box {
-  height: 250px;
+  height: 300px;
   width: 350px;
   padding-left: 35px;
   padding-right: 15px;
@@ -100,9 +128,16 @@ header {
   border: 0.5px solid gray;
   border-radius: 3px;
   font-size: 12px;
+  font-weight: 0;
   color: #444;
 }
 
+.login-input {
+  border: 1px solid #c2c2c2;
+  border-right: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  margin-top: 5px;
+}
 .session-top {
   margin-top: 30px;
   font-weight: 600;

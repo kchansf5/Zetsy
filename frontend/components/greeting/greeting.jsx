@@ -11,12 +11,13 @@ const Greeting = ({ currentUser, logout, openModal, demoLogin }) => {
       &nbsp; &nbsp;
 
       <button onClick={() => demoLogin()}>Demo</button>
+      <i class="fas fa-shopping-cart"></i>
     </nav>
   );
   const personalGreeting = () => (
     <hgroup className="header-group">
-      <h2 className="header-name">Hi, {currentUser.username}!</h2>
       <button className="header-button" onClick={logout}>Log Out</button>
+      <i class="fas fa-shopping-cart"></i>
     </hgroup>
   );
 
