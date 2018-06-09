@@ -1,6 +1,7 @@
 import React from 'react';
 
 class Products extends React.Component {
+
   constructor(props) {
     super(props);
   }
@@ -10,9 +11,17 @@ class Products extends React.Component {
   }
 
   render() {
+    console.log(this.props.products);
     return (
       <div>
-        {this.props.products}
+        {this.props.products.map(product => {
+          return(
+            <div>
+              {product.product_name}
+              <img src={product.image_url}/>
+            </div>
+          );
+        })}
       </div>
     );
   }

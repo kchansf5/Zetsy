@@ -2,10 +2,11 @@ import { connect } from 'react-redux';
 import React from 'react';
 import Products from './products';
 import { requestProducts } from '../../actions/product_actions';
+import { selectAllProducts } from '../../reducers/selectors';
 
 const mapStateToProps = (state) => {
   return {
-    products: state.products
+    products: selectAllProducts(state)
   };
 };
 
@@ -16,4 +17,3 @@ const mapDispatchToProps = dispatch => {
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Products);
-//
