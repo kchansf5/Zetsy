@@ -5,9 +5,15 @@ class Products extends React.Component {
     super(props);
   }
 
+  componentDidMount(){
+    this.props.requestProducts();
+  }
+
   render() {
     return (
-      <div></div>
+      <div>
+        {this.props.products}
+      </div>
     );
   }
 }

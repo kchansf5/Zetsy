@@ -20,9 +20,11 @@ const App = () => (
   <div>
     <Modal />
     <header>
+
       <Link to="/" className="header-logo">
         <div className="logo">Etsy</div>
       </Link>
+
 
       <search className="search">
         <input type="text" placeholder="Search for items or shops">
@@ -33,6 +35,7 @@ const App = () => (
       </button>
 
       <GreetingContainer />
+
 
       <i class="fas fa-shopping-cart"></i>
       <cart className="cart-text">Cart</cart>
