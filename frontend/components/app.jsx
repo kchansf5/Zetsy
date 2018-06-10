@@ -23,7 +23,7 @@ const App = () => (
     <header>
 
       <Link to="/" className="header-logo">
-        <div className="logo">Etsy</div>
+        <div className="logo">Zetsy</div>
       </Link>
 
 
