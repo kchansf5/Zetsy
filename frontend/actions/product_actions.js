@@ -13,8 +13,8 @@ export const receiveProduct = product => ({
   product
 });
 
-export const requestProducts = (data) => (dispatch) => (
-  APIUtil.fetchProducts(data).then(products => dispatch(receiveProducts(products)))
+export const requestProducts = () => (dispatch) => (
+  APIUtil.fetchProducts().then(products => dispatch(receiveProducts(products)))
 );
 
 export const requestProduct = id => (dispatch) => (

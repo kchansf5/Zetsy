@@ -26,3 +26,10 @@ Product.create!(
   price: 39.99,
   image_url: 'https://images.pier1.com/dis/dw/image/v2/AAID_PRD/on/demandware.static/-/Sites-pier1_master/default/dw2817df41/images/3284665/3284665_1.jpg?sw=500&sh=500'
 )
+
+Product.create!(
+  product_name: 'doggo',
+  description: 'golden doggo',
+  price: 9999999.99,
+  image_url: 'http://cdn3-www.dogtime.com/assets/uploads/gallery/goldendoodle-dog-breed-pictures/thumbs/thumbs_puppy-4_1.jpg'
+)

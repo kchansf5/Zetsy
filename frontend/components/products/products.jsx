@@ -13,12 +13,16 @@ class Products extends React.Component {
   render() {
     console.log(this.props.products);
     return (
-      <div>
+      <div className="product-listings">
         {this.props.products.map(product => {
           return(
-            <div>
-              {product.product_name}
+            <div className="product">
               <img src={product.image_url}/>
+              {product.product_name}
+              <br/>
+              <div className="product-price">
+                {product.price}
+              </div>
             </div>
           );
         })}
