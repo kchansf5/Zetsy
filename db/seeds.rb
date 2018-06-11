@@ -671,7 +671,7 @@ Product.create!(
   description: "A symbol of courage given to those who have overcome the challenges of a shrine.",
   price: 2000,
   category: 'key items',
-  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2fymzrgx2f3x2f33x2fGtyB_Xmjnpfm_Xqfyj_Nhts.uslx2f35uc-GtyB_Xmjnpfm_Xqfyj_Nhts.uslx3fajwx78ntsx3d105i499ihi908911i35f81k074j28848x26n65h.rfwpx3dnrflj_$/$/$/$/$/$/$'
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2fix2fi9x2fGtyB_Xunwny_Twg_Nhts.uslx3fajwx78ntsx3djj7g3841h39hjij92kfi08j198gj06j3x26n65h.rfwpx3dnrflj_$/$/$/$/$'
 )
 
 Product.create!(
