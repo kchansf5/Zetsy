@@ -33,7 +33,7 @@ header {
 
 .fas {
   position: absolute;
-  right: 127px;
+  right: 70px;
   top: 16px;
   font-size: 18px;
   -webkit-text-fill-color: #666666;
@@ -59,15 +59,15 @@ a.header-logo {
   font-size: 40px;
   text-decoration: none;
   height: 40px;
-  padding-left: 100px;
+  padding-left: 50px;
   margin-top: -27px;
 }
 
 .search input {
   position: absolute;
-  left: 213px;
+  left: 170px;
   top: 25px;
-  width: 360px;
+  width: 370px;
   height: 20px;
   padding: 6px 10px;
   border: 1px solid #CFCBC8;
@@ -120,7 +120,7 @@ a.header-logo {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   position: absolute;
-  right: 275px;
+  right: 210px;
   top: 15px;
   font-weight: 100;
 }
@@ -128,7 +128,7 @@ a.header-logo {
 .cart-text {
   position: absolute;
   margin-top: 5px;
-  right: 124px;
+  right: 67px;
   color: #888888;
   font-family: "Roboto", sans-serif;
   font-size: 13px;
@@ -136,7 +136,7 @@ a.header-logo {
 
 .login-signup {
   position: absolute;
-  right: 150px;
+  right: 100px;
   margin-right: 15px;
   padding-bottom: 24px;
 }
@@ -191,7 +191,7 @@ button:hover {
 .header-group .logout {
   position: absolute;
   top: 3px;
-  right: 175px;
+  right: 120px;
 }
 .modal-background {
   position: fixed;
@@ -302,8 +302,21 @@ button:hover {
   color: #333;
 }
 
-.slideshow{
+.category_nav {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
 
+ul.categories {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px 0px;
+  margin: 0px 80px;
+}
+
+ul.categories li {
+  list-style: none;
+  color: #464646;
 }
 
 .slide1{
@@ -329,21 +342,30 @@ button:hover {
   width: 100%;
   height: 200px;
   object-fit: cover;
+}
 
+.product-name {
+  color: #464646;
+  margin-top: 8px;
+}
+
+.product-price {
+  font-weight: bold;
+  margin-top: 5px;
 }
 
 
 .slide1 {
   display: flex;
   height: 330px;
-  width: 815px;
+  width: 870px;
 }
 .slide-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 222px;
+  width: 200px;
   border: 1px solid lightgray;
   height: 330px;
   background-color: #f9d746;
@@ -365,7 +387,7 @@ h2.top {
 
 h2.middle {
   font-family: 'Nanum Myeongjo', serif;
-  font-size: 24px;
+  font-size: 22px;
   text-align: center;
   font-weight: 100;
   margin: 5px;
@@ -379,7 +401,7 @@ h2.bottom {
 
 .slide1-img {
   height: 330px;
-  width: 510px;
+  width: 585px;
   object-fit: cover;
   border: 1px solid lightgray;
   border-left: none;
@@ -390,8 +412,8 @@ h2.bottom {
 
 .top-right {
   position: absolute;
-  right: 54px;
-  width: 437px;
+  right: 62px;
+  width: 424px;
   height: 230px;
   border: 1px solid lightgray;
   border-radius: 3px;
@@ -406,11 +428,11 @@ h2.bottom {
 
 .bottom-right {
   position: absolute;
-  left: 947px;
-  top: 378px;
+  left: 952px;
+  top: 410px;
   background-color: #f9d746;
   padding: 30px 60px;
-  padding-right: 205px;
+  padding-right: 192px;
   padding-left: 20px;
   border-radius: 3px;
   border: 1px solid rgb(0,0,0,0.1);
@@ -419,5 +441,5 @@ h2.bottom {
 .banner {
   display: flex;
   justify-content: space-between;
-  margin: 40px 100px;
+  margin: 40px 55px;
 }

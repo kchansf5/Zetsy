@@ -18,10 +18,11 @@ class Products extends React.Component {
           return(
             <div className="product">
               <img src={product.image_url}/>
-              {product.product_name}
-              <br/>
+              <div className="product-name">
+                {product.product_name}
+              </div>
               <div className="product-price">
-                {product.price}
+                ${product.price}
               </div>
             </div>
           );

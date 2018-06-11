@@ -14,6 +14,7 @@ import LogInFormContainer from './session_form/login_form_container';
 import SignUpFormContainer from './session_form/signup_form_container';
 import ProductsContainer from './products/products_container';
 import Banner from './banner/banner';
+import CategoryNav from './category_nav/category_nav';
 import { AuthRoute, ProtectedRoute } from '../util/route_util';
 
 
@@ -43,6 +44,7 @@ const App = () => (
 
     </header>
 
+    <CategoryNav />
     <Banner />
     <Switch>
       <Route exact path="/" component={ProductsContainer}/>
