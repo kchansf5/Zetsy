@@ -305,13 +305,14 @@ button:hover {
 .category_nav {
   border-top: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
+  margin-top: -10px;
 }
 
 ul.categories {
   display: flex;
   justify-content: space-around;
   padding: 5px 0px;
-  margin: 0px 80px;
+  margin: 3px 80px;
 }
 
 ul.categories li {
@@ -360,6 +361,11 @@ ul.categories li {
   height: 330px;
   width: 870px;
 }
+
+.slide1:hover {
+  cursor: pointer;
+}
+
 .slide-text {
   display: flex;
   flex-direction: column;
@@ -434,12 +440,16 @@ i.fas.fa-chevron-right {
   border-radius: 3px;
 }
 
+.top-right:hover {
+    cursor: pointer;
+}
+
 .top-right h2 {
-  margin-left: 30px;
+  margin-left: 24px;
   padding-top: 35px;
-  font-size: 16px;
+  font-size: 19px;
   position: inherit;
-  width: 200px;
+  width: 210px;
   color: white;
 }
 
@@ -447,7 +457,7 @@ i.fas.fa-chevron-right {
   position: relative;
   -webkit-text-fill-color: white;
   top: 106px;
-  left: 113px;
+  left: 107px;
 }
 
 h2.explore-now {
@@ -468,21 +478,33 @@ h2.explore-now {
   display: flex;
   position: absolute;
   left: 951px;
-  top: 409px;
+  top: 382px;
   background-color: #f9d746;
   padding: 18px 60px;
   padding-right: 185px;
   padding-left: 20px;
   border-radius: 3px;
-  border: 1px solid rgb(0,0,0,0.1);
+  border: 1px solid lightgray;
+}
+
+.bottom-right:hover {
+  cursor: pointer;
 }
 
 .bottom-right h2 {
   font-size: 15px;
 }
 
+.bottom-right i.fas.fa-chevron-right {
+  position: relative;
+  -webkit-text-fill-color: black;
+  bottom: -0.5px;
+  left: 1px;
+}
+
 .banner {
   display: flex;
   justify-content: space-between;
   margin: 40px 55px;
+  margin-top: 20px;
 }

@@ -34,7 +34,7 @@ class Banner extends React.Component {
         <div className="bottom-right">
           <h2>Fantastic finds that ship for free</h2>
           <div className="arrow-box">
-            <img className="arrow" src="https://unitronicsplc.com/wp-content/uploads/intense-cache/icons/plugin/elusive/chevron-right.svg"/>
+            <i class="fas fa-chevron-right"></i>
           </div>
         </div>
 
