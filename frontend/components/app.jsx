@@ -27,7 +27,6 @@ const App = () => (
         <div className="logo">Zetsy</div>
       </Link>
 
-
       <search className="search">
         <input type="text" placeholder="Search for items or shops">
         </input>
@@ -38,7 +37,6 @@ const App = () => (
 
       <GreetingContainer />
 
-
       <i class="fas fa-shopping-cart"></i>
       <cart className="cart-text">Cart</cart>
 
@@ -46,8 +44,9 @@ const App = () => (
 
     <CategoryNav />
     <Banner />
+
     <Switch>
-      <Route exact path="/" component={ProductsContainer}/>
+      <Route exact path="/products" component={ProductsContainer}/>
       <Redirect to="/"></Redirect>
     </Switch>
 

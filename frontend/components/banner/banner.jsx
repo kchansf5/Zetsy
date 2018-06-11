@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 class Banner extends React.Component {
 
@@ -22,14 +23,16 @@ class Banner extends React.Component {
           </div>
         </div>
 
-        <div className="top-right">
-          <h2>One-of-a-kind picks from every corner of Hyrule</h2>
-          <h2 className="explore-now">Explore now</h2>
-          <div className="arrow-box">
-            <i class="fas fa-chevron-right"></i>
+        <a href="http://localhost:3000/#/products">
+          <div className="top-right">
+            <h2>One-of-a-kind picks from every corner of Hyrule</h2>
+            <h2 className="explore-now">Explore now</h2>
+            <div className="arrow-box">
+              <i class="fas fa-chevron-right"></i>
+            </div>
+              <img className="top-right-img" src="https://www.zeldadungeon.net/wp-content/uploads/2017/03/Oman-Au-Shrine.jpg" />
           </div>
-          <img className="top-right-img" src="https://www.zeldadungeon.net/wp-content/uploads/2017/03/Oman-Au-Shrine.jpg" />
-        </div>
+        </a>
 
         <div className="bottom-right">
           <h2>Fantastic finds that ship for free</h2>
