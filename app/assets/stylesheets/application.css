@@ -346,7 +346,7 @@ ul.categories li {
 .product img {
   width: 100px;
   height: 150px;
-  object-fit: none;
+  object-fit: contain;
   margin-left: 37px;
 }
 

@@ -12,6 +12,94 @@ User.create!(
 )
 
 Product.create!(
+  product_name: 'Apple Pie',
+  description: "The crispy, flaky pie crust and sweet apples are a match made in heaven.",
+  price: 10,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2fymzrgx2fjx2fj2x2fGtyB_Fuuqj_Unj_Nhts.uslx2f35uc-GtyB_Fuuqj_Unj_Nhts.uslx3fajwx78ntsx3d7k2hji6640f5965h1j638053545hf8hix26n65h.rfwpx3dnrflj_$/$/$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: 'Carrot Stew',
+  description: "This simple stew sat simmering for a long time to bring out the sweetness of the carrots.",
+  price: 10,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2fymzrgx2fjx2fj0x2fGtyB_Hfwwty_Xyjb_Nhts.uslx2f35uc-GtyB_Hfwwty_Xyjb_Nhts.uslx3fajwx78ntsx3d686i0h411jk816h7h381h8fh3j7i40jhx26n65h.rfwpx3dnrflj_$/$/$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: 'Curry Rice',
+  description: "A favorite all over Hyrule, this simple dish has a flavor you just won't get tired of.",
+  price: 15,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2fymzrgx2fix2fi5x2fGtyB_Hzwwd_Wnhj_Nhts.uslx2f35uc-GtyB_Hzwwd_Wnhj_Nhts.uslx3fajwx78ntsx3dg701h56j5434091f687f47h5kifg7if1x26n65h.rfwpx3dnrflj_$/$/$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: 'Fruit and Mushroom Mix',
+  description: "This dish contrasts the sweetness of fruit with the savoriness of mushrooms.",
+  price: 12,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2fymzrgx2f2x2f2gx2fGtyB_Kwzny_fsi_Rzx78mwttr_Rnc_Nhts.uslx2f35uc-GtyB_Kwzny_fsi_Rzx78mwttr_Rnc_Nhts.uslx3fajwx78ntsx3dkfj48646f04k54gh333g03422943g5h9x26n65h.rfwpx3dnrflj_$/$/$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: 'Fruit Pie',
+  description: "A celebration isn't a celebration until this fruit-filled crust hits the table!",
+  price: 10,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2fymzrgx2f2x2f2fx2fGtyB_Kwzny_Unj_Nhts.uslx2f35uc-GtyB_Kwzny_Unj_Nhts.uslx3fajwx78ntsx3d06i70h43jh0524j6320ggj115h1032i0x26n65h.rfwpx3dnrflj_$/$/$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: 'Gourmet Meat & Rice Bowl',
+  description: "Only the most carefully selected cuts of high-quality meats go into this dish.",
+  price: 30,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2fymzrgx2fkx2fkgx2fGtyB_Ltzwrjy_Rjfy_fsi_Wnhj_Gtbq_Nhts.uslx2f35uc-GtyB_Ltzwrjy_Rjfy_fsi_Wnhj_Gtbq_Nhts.uslx3fajwx78ntsx3djg1ff65jh839k95k907g8f674h5544g3x26n65h.rfwpx3dnrflj_$/$/$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: 'Glazed Seafood',
+  description: "A seafood dish that you can actually wolf down whole!",
+  price: 12,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2fymzrgx2f2x2f23x2fGtyB_Lqfeji_Xjfktti_Nhts.uslx2f35uc-GtyB_Lqfeji_Xjfktti_Nhts.uslx3fajwx78ntsx3dj0020i03i53ij3173j0jk4055g84jf23x26n65h.rfwpx3dnrflj_$/$/$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: 'Gourmet Poultry Pilaf',
+  description: "Made with the highest-quality poultry, every bite of this pilaf floods your mouth with flavor.",
+  price: 30,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2fymzrgx2f5x2f5ix2fGtyB_Ltzwrjy_Utzqywd_Unqfk_Nhts.uslx2f35uc-GtyB_Ltzwrjy_Utzqywd_Unqfk_Nhts.uslx3fajwx78ntsx3djffjh038k5k8kh3hj4k0g5369j1457kfx26n65h.rfwpx3dnrflj_$/$/$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: 'Rock-Hard Food',
+  description: "A dish gone awry after adding the wrong ingredient. Chewing your way through this won't be fun, but it will fill you up when you're between a rock and a hard place.",
+  price: 2,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2fymzrgx2f2x2f23x2fGtyB_Wthp-Mfwi_Ktti_Nhts.uslx2f655uc-GtyB_Wthp-Mfwi_Ktti_Nhts.uslx3fajwx78ntsx3difgff2h68j550626h7g688i7ih901i76x26n65h.rfwpx3dnrflj_$/$/$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: 'Veggie Rice Balls',
+  description: "This home-style dish of Kakariko Village is stuffed with the bounty of the mountains.",
+  price: 8,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2fymzrgx2f0x2f08x2fGtyB_Ajllnj_Wnhj_Gfqqx78_Nhts.uslx2f35uc-GtyB_Ajllnj_Wnhj_Gfqqx78_Nhts.uslx3fajwx78ntsx3dfhg686i57gf2h1015h9868i1jhfhf96jx26n65h.rfwpx3dnrflj_$/$/$/$/$/$/$'
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Product.create!(
   product_name: 'Royal Broadsword',
   description: "The Hyrulean royal family would award this sword to knights who achieved remarkable feats. A sword that balances strength and beauty as elegantly as this one is a rare find.",
   price: 1200,
@@ -176,7 +264,7 @@ Product.create!(
   product_name: 'Daybreaker',
   description: "A shield issued to the Hyrulean royal family's immediate guard detail. It boasts a high defense, but these days it's more a collector's item due to its ornamentation.",
   price: 1000,
-  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2fix2fi3x2fGtyB_Wtdfq_Xmnjqi_Nhts.uslx3fajwx78ntsx3dh064j50k58843i9f384713jf624jk46ix26n65h.rfwpx3dnrflj_$/$/$/$/$'
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2fjx2fjjx2fGtyB_Ifdgwjfpjw_Nhts.uslx3fajwx78ntsx3dif63k854968i8jjjk0i45hkkih828i2kx26n65h.rfwpx3dnrflj_$/$/$/$/$'
 )
 
 Product.create!(
@@ -303,4 +391,237 @@ Product.create!(
   description: "Gerudo-made trousers for men sold rarely by Gerudo retailers. Sapphire is used in their creation, which harnesses the power of ice to make the heat more tolerable.",
   price: 600,
   image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2f4x2f40x2fGtyB_Ijx78jwy_Atj_Ywtzx78jwx78_Nhts.uslx3fajwx78ntsx3d8j6502022ji717kf7k50fig487j89864x26n65h.rfwpx3dnrflj_$/$/$/$/$'
+)
+
+
+
+
+
+
+
+
+
+
+
+Product.create!(
+  product_name: 'Amber Earrings',
+  description: "One of the items sold by the Gerudo jeweler. These earrings are made with amber, a gem that harnesses the power of the land to increase defense when equipped.",
+  price: 150,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2f7x2f71x2fGtyB_Frgjw_Jfwwnslx78_Nhts.uslx3fajwx78ntsx3dh8jik766kg320igik405fif041031618x26n65h.rfwpx3dnrflj_$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: 'Topaz Earrings',
+  description: "Earrings made by Gerudo craft workers. They're made with topaz, a gem that harnesses the power of lightning to increase electricity resistance.",
+  price: 150,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2fjx2fj6x2fGtyB_Ytufe_Jfwwnslx78_Nhts.uslx3fajwx78ntsx3di948f194i2i0199ff38k87k7gk6j951ix26n65h.rfwpx3dnrflj_$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: 'Opal Earrings',
+  description: "Earrings sold at Gerudo jewelry shops. They contain opal, a gem that harnesses the power of water to increase your swimming speed.",
+  price: 150,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2f0x2f08x2fGtyB_Tufq_Jfwwnslx78_Nhts.uslx3fajwx78ntsx3dk285j84ij93ji90k3j81k873gi34k406x26n65h.rfwpx3dnrflj_$/$/$/$/$'
+)
+
+
+Product.create!(
+  product_name: "Climber's Bandanna",
+  description: "It may look like a regular bandanna, but it's actually infused with ancient technology that enhances core strength to improve your climbing ability.",
+  price: 25,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2f9x2f91x2fGtyB_Hqnrgjwx2572x78_Gfsifssf_Nhts.uslx3fajwx78ntsx3d52k802g15hj72khkk81kf25j998027h7x26n65h.rfwpx3dnrflj_$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: 'Diamond Circlet',
+  description: "A luxurious headpiece sold at Gerudo jewelry shops. It's decorated with a diamond, which harnesses the power of light to reduce damage received from ancient enemies.",
+  price: 350,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2fix2fi0x2fGtyB_Infrtsi_Hnwhqjy_Nhts.uslx3fajwx78ntsx3d67i66j1ji6gg96ff7080fij95554ij3ix26n65h.rfwpx3dnrflj_$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: 'Ruby Cirlet',
+  description: "A headpiece made by Gerudo craft workers. It's set with a ruby, a gem that harnesses the power of fire to make cold climates more bearable.",
+  price: 350,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2f5x2f50x2fGtyB_Wzgd_Hnwhqjy_Nhts.uslx3fajwx78ntsx3d958i7k4k9fh577gh6k747igi962g52h1x26n65h.rfwpx3dnrflj_$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: 'Sapphire Circlet',
+  description: "An intricate headpiece crafted with Gerudo goldsmith techniques. It's set with a sapphire, a gem that harnesses the power of ice to make hot climates more tolerable.",
+  price: 350,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2f6x2f61x2fGtyB_Xfuumnwj_Hnwhqjy_Nhts.uslx3fajwx78ntsx3d67i182kiggh1f60hh3iii469h883iighx26n65h.rfwpx3dnrflj_$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: 'Hylian Hood',
+  description: "A hood woven using traditional Hyrulean methods. It's made from a sturdy material to protect travelers from the harsh sun and weather.",
+  price: 80,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2fjx2fj7x2fGtyB_Mdqnfs_Mtti_Nhts.uslx3fajwx78ntsx3d24ig7jhj3k27298gfjkg72gh947kk90fx26n65h.rfwpx3dnrflj_$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: 'Cap of the Hero',
+  description: "According to legend, this cap was once treasured by an ancient hero. It's quite the simple cap, yet there's something about it that's just so appealing...",
+  price: 100,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2f7x2f76x2fGtyB_Hfu_tk_ymj_Mjwt_Nhts.uslx3fajwx78ntsx3dkj44kg5gi7f0f343iigk4228g1g3fg7kx26n65h.rfwpx3dnrflj_$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: 'Cap of Time',
+  description: "According to legend, this cap was once worn by a hero who traveled through time. A truly timeless item perfect for kids and adults alike!",
+  price: 100,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2f6x2f61x2fGtyB_Hfu_tk_Ynrj_Nhts.uslx3fajwx78ntsx3d21849f7643i53i0786h24f33h158h862x26n65h.rfwpx3dnrflj_$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: 'Fierce Deity Mask',
+  description: "Legends say this mask was once worn by a hero from a world in which the moon threatened to fall. It looks scary, but wearing it offers fierce, godlike power.",
+  price: 1200,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2ffx2ff0x2fGtyB_Knjwhj_Ijnyd_Rfx78p_Nhts.uslx3fajwx78ntsx3d606550hj76jk4hkg2252i25017ffjkhjx26n65h.rfwpx3dnrflj_$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: 'Korok Mask',
+  description: "A mask inspired by those fun-loving Koroks. It shakes when one is hiding nearby. It's a rather rare find.",
+  price: 100,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2ffx2ffjx2fGtyB_Ptwtp_Rfx78p_Nhts.uslx3fajwx78ntsx3d0028k3f508544f892h92k1kh9kg91i70x26n65h.rfwpx3dnrflj_$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: 'Lizalfos Mask',
+  description: "Kilton's handmade Lizalfos headgear. It's designed to replicate the unique tongue and horn of the Lizalfos. Equip it to blend in with Lizalfos.",
+  price: 100,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2f8x2f8jx2fGtyB_Qnefqktx78_Rfx78p_Nhts.uslx3fajwx78ntsx3d6gjh17fj28566kghk99f6f7i1560f589x26n65h.rfwpx3dnrflj_$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: 'Lynel Mask',
+  description: "Kilton's handmade Lynel headgear. It's so well crafted, it can deceive a real Lynel. Equip it to blend in with Lynels, but don't linger too long. Those beasts are smart.",
+  price: 100,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2f1x2f10x2fGtyB_Qdsjq_Rfx78p_Nhts.uslx3fajwx78ntsx3d6i45i6904467g94768jj50gh67j8k58fx26n65h.rfwpx3dnrflj_$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: "Majora's Mask",
+  description: "An eerie mask passed down from ancient times. Wearing it makes it harder for certain enemies to spot you. It's a rather rare find.",
+  price: 100,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2f0x2f05x2fGtyB_Rfotwfx2572x78_Rfx78p_Nhts.uslx3fajwx78ntsx3djfjk41611ihigj6j5j083407f60gi169x26n65h.rfwpx3dnrflj_$/$/$/$/$'
+)
+
+
+
+
+
+
+
+
+
+Product.create!(
+  product_name: 'Ancient Core',
+  description: "This crystal was made using lost technology. At one time it was the power source for ancient machines. This item is very valuable to researchers.",
+  price: 1000,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2fymzrgx2f1x2f14x2fGtyB_Fshnjsy_Htwj_Nhts.uslx2f35uc-GtyB_Fshnjsy_Htwj_Nhts.uslx3fajwx78ntsx3d36h421jg5kggfg28237k332gh51jg6i5x26n65h.rfwpx3dnrflj_$/$/$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: 'Giant Ancient Core',
+  description: "A giant energy crystal made using lost ancient technology. Cores this large are an extremely rare find. A researcher would probably know how to use this.",
+  price: 9000,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2fymzrgx2f1x2f17x2fGtyB_Lnfsy_Fshnjsy_Htwj_Nhts.uslx2f35uc-GtyB_Lnfsy_Fshnjsy_Htwj_Nhts.uslx3fajwx78ntsx3d749456f7j150g1i5f663jj4899923k5jx26n65h.rfwpx3dnrflj_$/$/$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: 'Ancient Gear',
+  description: "A gear used in ancient machinery. Despite being incredibly old, its build quality is leaps and bounds above anything built using current technology.",
+  price: 500,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2fymzrgx2fhx2fh4x2fGtyB_Fshnjsy_Ljfw_Nhts.uslx2f35uc-GtyB_Fshnjsy_Ljfw_Nhts.uslx3fajwx78ntsx3d76f8k1j7ifg7h7gki938j805092564j4x26n65h.rfwpx3dnrflj_$/$/$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: 'Ancient Shaft',
+  description: "A machine part used in ancient machinery. It's incredibly sturdy, and it's not made of any recognizable material. It may come in handy someday.",
+  price: 500,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2fymzrgx2f3x2f36x2fGtyB_Fshnjsy_Xmfky_Nhts.uslx2f35uc-GtyB_Fshnjsy_Xmfky_Nhts.uslx3fajwx78ntsx3d65175333005728h7g8f689k3j297ig55x26n65h.rfwpx3dnrflj_$/$/$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: "Ancient Spring",
+  description: "A spring used in ancient machinery. It is light and buoyant enough to float on water, and no matter how many times it's compressed, it never loses tension.",
+  price: 500,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2fymzrgx2fhx2fhhx2fGtyB_Fshnjsy_Xuwnsl_Nhts.uslx2f35uc-GtyB_Fshnjsy_Xuwnsl_Nhts.uslx3fajwx78ntsx3dg39g1hh545427k406f932ig2jk0g55k8x26n65h.rfwpx3dnrflj_$/$/$/$/$/$/$'
+)
+
+
+
+
+
+Product.create!(
+  product_name: "Sheikah Slate",
+  description: "A mysterious tablet with a glowing center. You've never seen this device before, and yet...there's something familiar about it.",
+  price: 1500,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2fymzrgx2f3x2f33x2fGtyB_Xmjnpfm_Xqfyj_Nhts.uslx2f35uc-GtyB_Xmjnpfm_Xqfyj_Nhts.uslx3fajwx78ntsx3d105i499ihi908911i35f81k074j28848x26n65h.rfwpx3dnrflj_$/$/$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: "Mipha's Grace",
+  description: "A restorative Power born from the spirit of the Champion Mipha. When your hearts run out, you'll automatically be resurrected with full health plus temporary bonus hearts.",
+  price: 5000,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2fymzrgx2fgx2fg2x2fGtyB_Rnumfx2572x78_Lwfhj_Nhts.uslx2f35uc-GtyB_Rnumfx2572x78_Lwfhj_Nhts.uslx3fajwx78ntsx3d84i198ii02i3674h3191jfk14k38i759x26n65h.rfwpx3dnrflj_$/$/$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: "Revali's Gale",
+  description: "A Blusterous power born from the spirit of the Champion Revali. Creates an upward draft that carries you into the sky.",
+  price: 5000,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2f7x2f71x2fGtyB_Wjafqnx2572x78_Lfqj_Nhts.uslx3fajwx78ntsx3djhg0h0771f49h6iig125kj7j41783i03x26n65h.rfwpx3dnrflj_$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: "Daruk's Protection",
+  description: "A protective power containing the perfect defense of the Champion Daruk. It will automatically protect you from all manner of attacks as long as it is activated.",
+  price: 5000,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2f2x2f2gx2fGtyB_Ifwzpx2572x78_Uwtyjhynts_Nhts.uslx3fajwx78ntsx3di67j010h0g909k2h40782j8h77hi7jj1x26n65h.rfwpx3dnrflj_$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: "Urbosa's Fury",
+  description: "A destructive power born from the unbridled anger of the Champion Urbosa. Summons powerful lightning to the surrounding area.",
+  price: 5000,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2f4x2f4fx2fGtyB_Zwgtx78fx2572x78_Kzwd_Nhts.uslx3fajwx78ntsx3dj756f1k1fg13j5k8642012h689i12f38x26n65h.rfwpx3dnrflj_$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: "Spirit Orb",
+  description: "A symbol of courage given to those who have overcome the challenges of a shrine.",
+  price: 2000,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2fymzrgx2f3x2f33x2fGtyB_Xmjnpfm_Xqfyj_Nhts.uslx2f35uc-GtyB_Xmjnpfm_Xqfyj_Nhts.uslx3fajwx78ntsx3d105i499ihi908911i35f81k074j28848x26n65h.rfwpx3dnrflj_$/$/$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: "Paraglider",
+  description: "An item that you received from the king on the Great Plateau. It allows you to sail through the sky. Activate while you're in the air to use it.",
+  price: 1700,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2fymzrgx2f8x2f87x2fGtyB_Ufwflqnijw_Nhts.uslx2f35uc-GtyB_Ufwflqnijw_Nhts.uslx3fajwx78ntsx3d7fik15i319j053jg5hgfik00881g45j1x26n65h.rfwpx3dnrflj_$/$/$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: "Thunder Helm",
+  description: "A precious heirloom passed down among the Gerudo. It deflects lightning strikes and is traditionally worn only by the Gerudo chief.",
+  price: 7500,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2f5x2f5hx2fGtyB_Ymzsijw_Mjqr_Nhts.uslx3fajwx78ntsx3dkk8i08jif3kk62k84k09jh3g654j8hhjx26n65h.rfwpx3dnrflj_$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: "Hestu's Maracas",
+  description: "Hestu's beloved maracas. He's been shaking them since he was two years old.",
+  price: 250,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2fymzrgx2f1x2f1jx2fGtyB_Mjx78yzx2572x78_Rfwfhfx78_Nhts.uslx2f35uc-GtyB_Mjx78yzx2572x78_Rfwfhfx78_Nhts.uslx3fajwx78ntsx3d036ffhh091j133047895f78jj092k294x26n65h.rfwpx3dnrflj_$/$/$/$/$/$/$'
+)
+
+Product.create!(
+  product_name: "Travel Medallion",
+  description: "This mysterious tool was made using forgotten ancient technology. Place it by opening your pouch and registering your current location as a travel gate.",
+  price: 8000,
+  image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2fymzrgx2f7x2f70x2fGtyB_Ywfajq_Rjifqqnts_Nhts.uslx2f35uc-GtyB_Ywfajq_Rjifqqnts_Nhts.uslx3fajwx78ntsx3dg22g5g740f6fj994i5i17ijj83726fjix26n65h.rfwpx3dnrflj_$/$/$/$/$/$/$'
 )

@@ -22,6 +22,7 @@ class Products extends React.Component {
                 {product.product_name}
               </div>
               <div className="product-price">
+                
                 ${product.price}
               </div>
             </div>
