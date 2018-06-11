@@ -199,7 +199,7 @@ button:hover {
   bottom: 0;
   right: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.075);
+  background: rgba(0, 0, 0, 0.25);
   z-index: 10;
 }
 
@@ -336,31 +336,39 @@ button:hover {
 
 
 .slide1 {
-  height: 320px;
-  width: 875px;
+  height: 328px;
+  width: 820px;
   object-fit: cover;
+  border: 1px solid rgb(0,0,0,0.1);
+  border-radius: 3px;
 }
 
 .top-right {
-  width: 100px;
-  height: 200px;
+  position: absolute;
+  right: 54px;
+  width: 437px;
+  height: 230px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
 }
 .top-right img {
-  border: 1px solid green;
-  object-fit: contain;
+  object-fit: cover;
   width: 100%;
   height: 100%;
   box-sizing: border-box;
+  border-radius: 3px;
 }
 
 .bottom-right {
-    position: absolute;
-    left: 1027px;
-    top: 370px;
-    background-color: #f9d746;
-    padding: 30px 60px;
-    border-radius: 3px;
-    border: 1px solid rgb(0,0,0,0.1);
+  position: absolute;
+  left: 947px;
+  top: 378px;
+  background-color: #f9d746;
+  padding: 30px 60px;
+  padding-right: 205px;
+  padding-left: 20px;
+  border-radius: 3px;
+  border: 1px solid rgb(0,0,0,0.1);
 }
 
 .banner {

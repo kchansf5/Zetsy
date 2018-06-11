@@ -11,7 +11,7 @@ class Banner extends React.Component {
         </div>
 
         <div className="top-right">
-          <img className="top-right-img" src="https://img00.deviantart.net/8670/i/2016/254/2/2/rusted_master_sword__hi_res__by_hextupleyoodot-dahc8no.png" />
+          <img className="top-right-img" src="https://www.zeldadungeon.net/wp-content/uploads/2017/03/Oman-Au-Shrine.jpg" />
         </div>
 
         <div className="bottom-right">

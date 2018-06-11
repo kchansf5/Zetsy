@@ -6,6 +6,10 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+User.create!(
+  username: 'demouser',
+  password: 'password'
+)
 Product.create!(
   product_name: 'wooden chair',
   description: 'a nice chair made out of solid acacia',
