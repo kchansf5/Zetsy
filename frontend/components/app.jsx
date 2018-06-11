@@ -13,6 +13,7 @@ import GreetingContainer from './greeting/greeting_container';
 import LogInFormContainer from './session_form/login_form_container';
 import SignUpFormContainer from './session_form/signup_form_container';
 import ProductsContainer from './products/products_container';
+import ProductItemContainer from './products/product_item_container';
 import Banner from './banner/banner';
 import CategoryNav from './category_nav/category_nav';
 import { AuthRoute, ProtectedRoute } from '../util/route_util';
@@ -46,7 +47,8 @@ const App = () => (
     <Banner />
 
     <Switch>
-      <Route exact path="/products" component={ProductsContainer}/>
+      <Route path="/products/:productId" component={ProductItemContainer}/>
+      <Route path="/products" component={ProductsContainer}/>
       <Redirect to="/"></Redirect>
     </Switch>
 
