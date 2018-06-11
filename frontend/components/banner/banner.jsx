@@ -34,13 +34,15 @@ class Banner extends React.Component {
           </div>
         </a>
 
-        <div className="bottom-right">
-          <h2>Fantastic finds that ship for free</h2>
-          <div className="arrow-box">
-            <i class="fas fa-chevron-right"></i>
+        <a href="http://localhost:3000/#/products">
+          <div className="bottom-right">
+            <h2>Fantastic finds that ship for free</h2>
+            <div className="arrow-box">
+              <i class="fas fa-chevron-right"></i>
+            </div>
           </div>
-        </div>
-
+        </a>
+        
       </div>
     );
   }

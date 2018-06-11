@@ -50,6 +50,15 @@ const App = () => (
       <Redirect to="/"></Redirect>
     </Switch>
 
+    <footer>
+      <div className="footer-logo">Zetsy</div>
+      <ul className="footer-items">
+        <li className="slogan">We make it easy to defeat the Calamity.</li>
+        <li>© 2018 Zetsy, Inc.</li>
+        <li>GitHub</li>
+        <li>LinkedIn</li>
+      </ul>
+    </footer>
   </div>
 );
 
