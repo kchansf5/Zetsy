@@ -16,6 +16,7 @@ class Api::ShoppingCartItemsController < ApplicationController
     else
       render json: @shopping_cart_item.errors.full_messages, status: 422
     end
+
   end
 
   def update

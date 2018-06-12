@@ -330,7 +330,7 @@ ul.categories li {
   display: grid;
   grid-template-columns: repeat(5, 12.5%);
   justify-content: space-around;
-  margin-left: 150px;
+  margin-left: 95px;
   margin-right: 150px;
   margin-top: 50px;
 }
