@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 class Products extends React.Component {
 
@@ -17,7 +18,7 @@ class Products extends React.Component {
         {this.props.products.map(product => {
           return(
 
-            <a href={`/#/products/${product.id}`}>
+            <Link to={`/products/${product.id}`}>
               <div className="product">
                 <img src={product.image_url}/>
                 <div className="product-name">
@@ -28,7 +29,7 @@ class Products extends React.Component {
                   ${product.price}.00
                 </div>
               </div>
-            </a>
+            </Link>
 
           );
         })}

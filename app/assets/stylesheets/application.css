@@ -342,6 +342,7 @@ ul.categories li {
   margin-bottom: 70px;
   border: 1px solid lightgray;
   border-radius: 3px;
+  color: #464646;
 }
 
 .product img {
@@ -359,6 +360,8 @@ ul.categories li {
 .product-price {
   font-weight: bold;
   margin-top: 5px;
+  color: #464646;
+
 }
 
 
@@ -446,7 +449,7 @@ button.num-quantity:hover {
 }
 
 button.add {
-  margin-top: 40px;
+  margin-top: 25px;
   background-color: #f45800;
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
@@ -684,4 +687,22 @@ li.slogan {
   right: 648px;
   font-size: 13px;
   bottom: 3px;
+}
+
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
 }

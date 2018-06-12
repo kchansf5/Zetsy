@@ -23,9 +23,9 @@ class Banner extends React.Component {
                 <img className="slide1-img" src="https://images6.alphacoders.com/516/thumb-1920-516665.jpg" />
               </div>
           </div>
-  
 
-        <a href="http://localhost:3000/#/products">
+
+        <Link to="/products">
           <div className="top-right">
             <h2>One-of-a-kind picks from every corner of Hyrule</h2>
             <h2 className="explore-now">Explore now</h2>
@@ -34,16 +34,16 @@ class Banner extends React.Component {
             </div>
               <img className="top-right-img" src="https://www.zeldadungeon.net/wp-content/uploads/2017/03/Oman-Au-Shrine.jpg" />
           </div>
-        </a>
+        </Link>
 
-        <a href="http://localhost:3000/#/products">
+        <Link to="/products">
           <div className="bottom-right">
             <h2>Fantastic finds that ship for free</h2>
             <div className="arrow-box">
               <i class="fas fa-chevron-right"></i>
             </div>
           </div>
-        </a>
+        </Link>
 
       </div>
     );
