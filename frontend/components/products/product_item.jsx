@@ -19,7 +19,7 @@ class ProductItem extends React.Component {
       );
     } else {
       return (
-        null
+        <div>waiting for product</div>
       );
     }
   }

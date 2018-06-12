@@ -20,37 +20,39 @@ import { AuthRoute, ProtectedRoute } from '../util/route_util';
 
 
 const App = () => (
-  <div>
-    <Modal />
-    <header>
+  <div className="entire-app">
+    <div>
+      <Modal />
 
-      <Link to="/" className="header-logo">
-        <div className="logo">Zetsy</div>
-      </Link>
+      <header>
+        <Link to="/" className="header-logo">
+          <div className="logo">Zetsy</div>
+        </Link>
 
-      <search className="search">
-        <input type="text" placeholder="Search for items or shops">
-        </input>
-      </search>
-      <button className="search-button">
-        Search
-      </button>
+        <search className="search">
+          <input type="text" placeholder="Search for items or shops">
+          </input>
+        </search>
+        <button className="search-button">
+          Search
+        </button>
 
-      <GreetingContainer />
+        <GreetingContainer />
 
-      <i class="fas fa-shopping-cart"></i>
-      <cart className="cart-text">Cart</cart>
+        <i class="fas fa-shopping-cart"></i>
+        <cart className="cart-text">Cart</cart>
+      </header>
 
-    </header>
+      <CategoryNav />
 
-    <CategoryNav />
+      <Switch>
+        <Route path="/products/:productId" component={ProductItemContainer}/>
+        <Route path="/products" component={ProductsContainer}/>
+        <Route path="/" component={Banner}/>
+        <Redirect to="/"></Redirect>
+      </Switch>
 
-    <Switch>
-      <Route path="/products/:productId" component={ProductItemContainer}/>
-      <Route path="/products" component={ProductsContainer}/>
-      <Route path="/" component={Banner}/>
-      <Redirect to="/"></Redirect>
-    </Switch>
+    </div>
 
     <footer>
       <div className="footer-logo">Zetsy</div>
@@ -61,6 +63,7 @@ const App = () => (
         <li>LinkedIn</li>
       </ul>
     </footer>
+
   </div>
 );
 

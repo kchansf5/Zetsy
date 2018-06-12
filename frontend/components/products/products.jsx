@@ -17,7 +17,7 @@ class Products extends React.Component {
         {this.props.products.map(product => {
           return(
 
-            // <a href="http:/localhost:3000/#/products/${productId}">
+            <a href={`/#/products/${product.id}`}>
               <div className="product">
                 <img src={product.image_url}/>
                 <div className="product-name">
@@ -28,7 +28,7 @@ class Products extends React.Component {
                   ${product.price}.00
                 </div>
               </div>
-            // </a>
+            </a>
 
           );
         })}
