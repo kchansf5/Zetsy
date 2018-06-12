@@ -16,16 +16,20 @@ class Products extends React.Component {
       <div className="product-listings">
         {this.props.products.map(product => {
           return(
-            <div className="product">
-              <img src={product.image_url}/>
-              <div className="product-name">
-                {product.product_name}
-              </div>
-              <div className="product-price">
 
-                ${product.price}.00
+            // <a href="http:/localhost:3000/#/products/${productId}">
+              <div className="product">
+                <img src={product.image_url}/>
+                <div className="product-name">
+                  {product.product_name}
+                </div>
+                <div className="product-price">
+
+                  ${product.price}.00
+                </div>
               </div>
-            </div>
+            // </a>
+
           );
         })}
       </div>

@@ -44,11 +44,11 @@ const App = () => (
     </header>
 
     <CategoryNav />
-    <Banner />
 
     <Switch>
       <Route path="/products/:productId" component={ProductItemContainer}/>
       <Route path="/products" component={ProductsContainer}/>
+      <Route path="/" component={Banner}/>
       <Redirect to="/"></Redirect>
     </Switch>
 
