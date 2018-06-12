@@ -7,21 +7,23 @@ class Banner extends React.Component {
     return (
       <div className="banner">
 
-        <div className="slideshow">
-          <div className="slide1">
-            <div className="slide-text">
-              <h2 className="top">ACCESSORIES</h2>
-              <h2 className="middle">Don't leave on your adventure without these items.</h2>
-              <div className="bottom">
-                <h2>Shop now</h2>
-                <div className="arrow-box">
-                  <i class="fas fa-chevron-right"></i>
+
+          <div className="slideshow">
+              <div className="slide1">
+                <div className="slide-text">
+                  <h2 className="top">ACCESSORIES</h2>
+                  <h2 className="middle">Don't leave on your adventure without these items.</h2>
+                  <div className="bottom">
+                    <h2>Shop now</h2>
+                    <div className="arrow-box">
+                      <i class="fas fa-chevron-right"></i>
+                    </div>
+                  </div>
                 </div>
+                <img className="slide1-img" src="https://images6.alphacoders.com/516/thumb-1920-516665.jpg" />
               </div>
-            </div>
-            <img className="slide1-img" src="https://images6.alphacoders.com/516/thumb-1920-516665.jpg" />
           </div>
-        </div>
+  
 
         <a href="http://localhost:3000/#/products">
           <div className="top-right">
@@ -42,7 +44,7 @@ class Banner extends React.Component {
             </div>
           </div>
         </a>
-        
+
       </div>
     );
   }

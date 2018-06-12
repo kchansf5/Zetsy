@@ -362,6 +362,134 @@ ul.categories li {
 }
 
 
+.single-product-listing {
+  display: flex;
+  margin: 0px 200px;
+}
+
+.product-image {
+  margin: 50px;
+  flex-direction: column;
+  width: min-content;
+}
+
+.product-image img {
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    padding: 75px 120px;
+}
+
+.description {
+  width: 322px;
+  border-top: 1px solid #E1E3DF;
+  border-bottom: 1px solid #E1E3DF;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 20px;
+}
+
+.des-text {
+  font-weight: bold;
+  padding-bottom: 12px;
+}
+
+.product-text {
+  margin: 50px;
+}
+
+.name {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: serif;
+  line-height: 15px;
+}
+
+.price {
+  padding-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.quantity {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  margin-top: 55px;
+}
+
+button.num-quantity {
+  margin-top: 10px;
+  width: 40px;
+  border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+  border-style: solid;
+  border-width: 1px;
+  padding: 1px 7px 2px;
+  border-radius: 3px;
+  background-color: white;
+}
+
+button.num-quantity:focus {
+  outline: none;
+}
+
+button.num-quantity:hover {
+  border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+  border-style: solid;
+  border-width: 1px;
+  padding: 1px 7px 2px;
+  border-radius: 3px;
+  background-color: white;
+}
+
+button.add {
+  margin-top: 40px;
+  background-color: #f45800;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: white;
+  background-color: #f45800;
+  border-color: rgba(0, 0, 0, 0.1);
+  width: 250px;
+  padding-top: 7px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 15px;
+  font-weight: bolder;
+  text-align: top;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button.add:focus {
+  outline: none;
+}
+
+button.add:hover {
+  background-color: #FFF3EE;
+  cursor: pointer;
+  background-color: #ff6905;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .slide1 {
   display: flex;
   height: 330px;
@@ -501,6 +629,7 @@ h2.explore-now {
 }
 
 .bottom-right h2 {
+  color: black;
   font-size: 15px;
 }
 
