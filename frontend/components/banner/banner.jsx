@@ -24,27 +24,29 @@ class Banner extends React.Component {
               </div>
           </div>
 
+        <div className="right-side">
 
-        <Link to="/products">
-          <div className="top-right">
-            <h2>One-of-a-kind picks from every corner of Hyrule</h2>
-            <h2 className="explore-now">Explore now</h2>
-            <div className="arrow-box">
-              <i class="fas fa-chevron-right"></i>
+          <Link to="/products">
+            <div className="top-right">
+              <h2>One-of-a-kind picks from every corner of Hyrule</h2>
+              <h2 className="explore-now">Explore now</h2>
+              <div className="arrow-box">
+                <i class="fas fa-chevron-right"></i>
+              </div>
+                <img className="top-right-img" src="https://www.zeldadungeon.net/wp-content/uploads/2017/03/Oman-Au-Shrine.jpg" />
             </div>
-              <img className="top-right-img" src="https://www.zeldadungeon.net/wp-content/uploads/2017/03/Oman-Au-Shrine.jpg" />
-          </div>
-        </Link>
+          </Link>
 
-        <Link to="/products">
-          <div className="bottom-right">
-            <h2>Fantastic finds that ship for free</h2>
-            <div className="arrow-box">
-              <i class="fas fa-chevron-right"></i>
+          <Link to="/products">
+            <div className="bottom-right">
+              <h2>Fantastic finds that ship for free</h2>
+              <div className="arrow-box">
+                <i class="fas fa-chevron-right"></i>
+              </div>
             </div>
-          </div>
-        </Link>
-
+          </Link>
+          
+        </div>
       </div>
     );
   }

@@ -1,7 +1,7 @@
 class Api::ShoppingCartItemsController < ApplicationController
 
   def index
-    @shopping_cart_items = ShoppingCartItem.all
+    @shopping_cart_items = ShoppingCartItem.where(user_id: current_user.id)
   end
 
   def show
