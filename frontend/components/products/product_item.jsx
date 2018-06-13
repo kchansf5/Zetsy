@@ -2,11 +2,33 @@ import React from 'react';
 
 class ProductItem extends React.Component {
 
+  constructor(props){
+
+    super(props);
+    // debugger;
+    this.state = {};
+    this.state.quantity = 1;
+    this.state.product_id = this.props.match.params.productId;
+    this.selectQuantity = this.selectQuantity.bind(this);
+    this.handleClick = this.handleClick.bind(this);
+
+    this.createItem = this.props.createItem.bind(this);
+  }
+
   componentDidMount() {
     this.props.requestSingleProduct(this.props.match.params.productId);
   }
 
   // need function to handle clicking the 'Add to Cart' button
+  handleClick(e) {
+    e.preventDefault();
+    // debugger;
+    this.createItem(this.state);
+  }
+
+  selectQuantity(e) {
+    this.setState({quantity: parseInt(e.target.value)});
+  }
   //clicking should take the user to the cart show page and create a new cart item (with product_id, user_id, and quantity)
 
 
@@ -41,7 +63,7 @@ class ProductItem extends React.Component {
                 Quantity
               </div>
 
-              <select className="dropdown">
+              <select className="dropdown" onChange={this.selectQuantity}>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -54,7 +76,7 @@ class ProductItem extends React.Component {
                 <option value="10">10</option>
               </select>
 
-              <button className="add">
+              <button className="add" onClick={this.handleClick}>
                 Add to cart
               </button>
 

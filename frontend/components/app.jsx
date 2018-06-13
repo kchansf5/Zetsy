@@ -43,7 +43,7 @@ const App = () => (
           <i class="fas fa-shopping-cart"></i>
           <cart className="cart-text">Cart</cart>
         </div>
-        
+
       </header>
 
       <CategoryNav />
@@ -51,7 +51,7 @@ const App = () => (
       <Switch>
         <Route path="/products/:productId" component={ProductItemContainer}/>
         <Route path="/products" component={ProductsContainer}/>
-        <Route path="/" component={Banner}/>
+        <Route exact path="/" component={Banner}/>
         <Redirect to="/"></Redirect>
       </Switch>
 

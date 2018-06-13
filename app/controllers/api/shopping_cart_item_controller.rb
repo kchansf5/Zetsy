@@ -9,7 +9,9 @@ class Api::ShoppingCartItemController < ApplicationController
   end
 
   def create
+    # debugger
     @shopping_cart_item = ShoppingCartItem.new(shopping_cart_item_params)
+    @shopping_cart_item.user_id = current_user.id
 
     if @shopping_cart_item.save
       render :show
@@ -37,7 +39,7 @@ class Api::ShoppingCartItemController < ApplicationController
   private
 
   def shopping_cart_item_params
-    params.require(:shoppingCartItem).permit(:product_id, :user_id, :quantity)
+    params.require(:item).permit(:product_id, :quantity)
   end
 
 end
