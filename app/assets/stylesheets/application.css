@@ -444,13 +444,25 @@ ul.categories li:hover {
 }
 
 
-.dropdown {
-    width: 50px;
-    margin-top: 10px;
+.dropdown:focus{
+  outline: none;
 }
 
+.dropdown {
+  margin-top: 10px;
+    -webkit-appearance: menulist-button;
+    border: 1px solid #B1ADAB;
+    border-right: 1px solid #CBC9C7;
+    border-bottom: 1px solid #CBC9C7;
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.1);
+    height: 22px;
+    width: 35px;
+}
+
+
+
 .text {
-  margin-top: 45px;
+  margin-top: 65px;
 }
 
 button.num-quantity {
@@ -478,7 +490,7 @@ button.num-quantity:hover {
 }
 
 button.add {
-  margin-top: 25px;
+  margin-top: 15px;
   background-color: #f45800;
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
