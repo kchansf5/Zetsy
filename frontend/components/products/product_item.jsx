@@ -6,6 +6,12 @@ class ProductItem extends React.Component {
     this.props.requestSingleProduct(this.props.match.params.productId);
   }
 
+  // need function to handle clicking the 'Add to Cart' button
+  //clicking should take the user to the cart show page and create a new cart item (with product_id, user_id, and quantity)
+
+
+  //need way to link quantity field with shopping cart item quantity props
+  
   render() {
     if (this.props.singleProduct) {
       return (
