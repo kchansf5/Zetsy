@@ -49,6 +49,7 @@ const App = () => (
       <CategoryNav />
 
       <Switch>
+        <Route path="/cart" component = {Banner}/>
         <Route path="/products/:productId" component={ProductItemContainer}/>
         <Route path="/products" component={ProductsContainer}/>
         <Route exact path="/" component={Banner}/>

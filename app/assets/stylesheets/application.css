@@ -402,6 +402,7 @@ ul.categories li:hover {
     border: 1px solid lightgray;
     border-radius: 3px;
     padding: 75px 120px;
+        box-shadow: inset -1px -1px 10px rgba(0, 0, 0, 0.075);
 }
 
 .description {

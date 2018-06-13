@@ -135,7 +135,7 @@ Product.create!(
 
 Product.create!(
   product_name: 'Ancient Short Sword',
-  description: "The blade of this sword was made using an ancient power lost to this modern age. It's blade appears only when drawn, and its cutting power surpasses metal swords.",
+  description: "The blade of this sword was made using an ancient power lost to this modern age. Its blade appears only when drawn, and its cutting power surpasses metal swords.",
   price: 1000,
   category: 'weapons',
   image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2f1x2f10x2fGtyB_Fshnjsy_Xmtwy_Xbtwi_Nhts.uslx3fajwx78ntsx3d281iih3i593432g29j8f52ii4hjg6j91x26n65h.rfwpx3dnrflj_$/$/$/$/$'
@@ -167,7 +167,7 @@ Product.create!(
 
 Product.create!(
   product_name: 'Bow of Light',
-  description: "Princess Zelda gave Link this bow and arrow for the battle against dark Beast Ganon. When wielded by the hero, it fires arros of pure light strong enough to oppose the Calamity.",
+  description: "Princess Zelda gave Link this bow and arrow for the battle against dark Beast Ganon. When wielded by the hero, it fires arrows of pure light strong enough to oppose the Calamity.",
   price: 2500,
   category: 'weapons',
   image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2fhx2fh8x2fGtyB_Gtb_tk_Qnlmy_Nhts.uslx3fajwx78ntsx3d14gk154j717071023002i10j52kig0h7x26n65h.rfwpx3dnrflj_$/$/$/$/$'
@@ -223,7 +223,7 @@ Product.create!(
 
 Product.create!(
   product_name: 'Great Eagle Bow',
-  description: "A bow without equal wielded by the Rito Champion, Revali. It's said Revali could loose arrows with the speed of a gale, making him supreme in aerial combat.",
+  description: "A bow without equal wielded by the Rito Champion Revali. It's said Revali could loose arrows with the speed of a gale, making him supreme in aerial combat.",
   price: 3000,
   category: 'weapons',
   image_url: 'https://vignette.wikia.nocookie.net/zelda/images/9/95/Breath_of_the_Wild_Rito_Champion%27s_Bow_Great_Eagle_Bow_%28Icon%29.png/revision/latest?cb=20170421175354'
@@ -310,7 +310,7 @@ Product.create!(
 
 Product.create!(
   product_name: 'Savage Lynel Shield',
-  description: "This ultimate Lynel shield is used only by the white-haired Lynels. It excels at defending against even the most brutal of attacks and cutting down powerful fores when deflecting.",
+  description: "This ultimate Lynel shield is used only by the white-haired Lynels. It excels at defending against even the most brutal of attacks and cutting down powerful foes when deflecting.",
   price: 1000,
   category: 'shields',
   image_url: 'https://c-6rtwjumjzx7877x24i6z0u8q9bufd8px2ehqtzikwtsyx2esjy.g00.gamepedia.com/g00/3_c-6ejqif.lfrjujinf.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fi6z0u8q9bufd8p.hqtzikwtsy.sjyx2fejqif_lfrjujinf_jsx2fgx2fggx2fGtyB_Xfaflj_Qdsjq_Xmnjqi_Nhts.uslx3fajwx78ntsx3d1g405fj7833f938hiki4303gkifhf007x26n65h.rfwpx3dnrflj_$/$/$/$/$'

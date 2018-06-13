@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 class ProductItem extends React.Component {
 
@@ -76,10 +77,12 @@ class ProductItem extends React.Component {
                 <option value="10">10</option>
               </select>
 
-              <button className="add" onClick={this.handleClick}>
-                Add to cart
-              </button>
-
+              <Link to='/cart'>
+                <button className="add" onClick={this.handleClick}>
+                  Add to cart
+                </button>
+              </Link>
+              
               <div className="menu">
 
               </div>
