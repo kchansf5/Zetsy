@@ -1,4 +1,4 @@
-import * as CartAPIUtil from '../util/shopping_cart_api_util';
+import * as CartAPIUtil from '../util/shopping_cart_item_api_util';
 
 export const RECEIVE_ALL_ITEMS = 'RECEIVE_ALL_ITEMS';
 export const RECEIVE_ITEM = 'RECEIVE_ITEM';

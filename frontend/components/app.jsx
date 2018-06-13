@@ -39,8 +39,11 @@ const App = () => (
 
         <GreetingContainer />
 
-        <i class="fas fa-shopping-cart"></i>
-        <cart className="cart-text">Cart</cart>
+        <div className="cart">
+          <i class="fas fa-shopping-cart"></i>
+          <cart className="cart-text">Cart</cart>
+        </div>
+        
       </header>
 
       <CategoryNav />

@@ -48,6 +48,22 @@ i.fas.fa-shopping-cart {
 .fas.fa-shopping-cart:hover {
   -webkit-text-fill-color: black;
 }
+.cart-text:hover {
+  -webkit-text-fill-color: black;
+}
+/*
+.cart:hover {
+  -webkit-text-fill-color: black;
+}*/
+
+.cart-text {
+  position: absolute;
+  margin-top: -1px;
+  right: 67px;
+  color: #888888;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+}
 
 a.header-logo {
   height: auto;
@@ -123,15 +139,6 @@ a.header-logo {
   right: 210px;
   top: 15px;
   font-weight: 100;
-}
-
-.cart-text {
-  position: absolute;
-  margin-top: 5px;
-  right: 67px;
-  color: #888888;
-  font-family: "Roboto", sans-serif;
-  font-size: 13px;
 }
 
 .login-signup {
@@ -630,7 +637,8 @@ h2.explore-now {
 
 .bottom-right {
   display: flex;
-  position: absolute;
+  margin-top: 23px;
+  margin-left: 18px;
   left: 951px;
   top: 385px;
   background-color: #f9d746;
@@ -647,19 +655,19 @@ h2.explore-now {
 
 .bottom-right h2 {
   color: black;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .bottom-right i.fas.fa-chevron-right {
   position: relative;
   -webkit-text-fill-color: black;
-  bottom: -0.5px;
+  bottom: 0.5px;
   left: 1px;
 }
 
 .banner {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin: 40px 55px;
   margin-top: 20px;
 }

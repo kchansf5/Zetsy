@@ -1,4 +1,4 @@
-class Api::ShoppingCartItemsController < ApplicationController
+class Api::ShoppingCartItemController < ApplicationController
 
   def index
     @shopping_cart_items = ShoppingCartItem.where(user_id: current_user.id)
@@ -25,6 +25,7 @@ class Api::ShoppingCartItemsController < ApplicationController
       render json: @shopping_cart_item
     else
       render json: @shopping_cart_item.errors.full_messages, status: 422
+    end
   end
 
   def destroy
@@ -38,4 +39,5 @@ class Api::ShoppingCartItemsController < ApplicationController
   def shopping_cart_item_params
     params.require(:shoppingCartItem).permit(:product_id, :user_id, :quantity)
   end
+
 end
