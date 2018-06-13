@@ -26,8 +26,8 @@ class cartItems extends React.Component {
             <div>
               {item.product_id}
               {item.quantity}
-              Subtotal
-              Remove Button
+              Subtotal goes here
+              Remove item button foes here
             </div>
           );
         })}

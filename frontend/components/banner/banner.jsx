@@ -7,7 +7,7 @@ class Banner extends React.Component {
     return (
       <div className="banner">
 
-
+        <Link to="/products">
           <div className="slideshow">
               <div className="slide1">
                 <div className="slide-text">
@@ -23,6 +23,7 @@ class Banner extends React.Component {
                 <img className="slide1-img" src="https://images6.alphacoders.com/516/thumb-1920-516665.jpg" />
               </div>
           </div>
+        </Link>
 
         <div className="right-side">
 
@@ -45,7 +46,7 @@ class Banner extends React.Component {
               </div>
             </div>
           </Link>
-          
+
         </div>
       </div>
     );

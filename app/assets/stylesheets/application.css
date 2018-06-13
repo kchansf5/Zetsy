@@ -424,6 +424,7 @@ ul.categories li:hover {
 }
 
 .name {
+  margin-top: 2px;
   font-size: 22px;
   font-weight: 500;
   font-family: serif;
@@ -442,8 +443,14 @@ ul.categories li:hover {
   flex-direction: column;
 }
 
+
+.dropdown {
+    width: 50px;
+    margin-top: 10px;
+}
+
 .text {
-  margin-top: 55px;
+  margin-top: 53px;
 }
 
 button.num-quantity {
@@ -542,6 +549,7 @@ button.add:hover {
 
 .slide-text h2 {
   font-size: 15px;
+  color: black;
 }
 
 h2.top {
@@ -577,6 +585,8 @@ i.fas.fa-chevron-right {
     margin-top: 16px;
     margin-left: 6px;
     font-size: 10px;
+    z-index: 10;
+    color: black;
 }
 
 .slide1-img {
@@ -676,7 +686,6 @@ footer {
   border-top: 1px solid #E1E3DF;
   margin-top: 95px;
   padding-bottom: 5px;
-  background-color: #faf9f5;
 }
 
 .footer-logo {
