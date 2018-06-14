@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Greeting = ({ currentUser, logout, openModal, demoLogin }) => {
 
@@ -18,7 +19,9 @@ const Greeting = ({ currentUser, logout, openModal, demoLogin }) => {
   const personalGreeting = () => (
     <hgroup className="header-group">
       <h3 className="welcome-user">Welcome, {currentUser.username}!</h3>
-      <button className="logout" onClick={logout}>Log Out</button>
+      <Link to="/">
+        <button className="logout" onClick={logout}>Log Out</button>
+      </Link>
     </hgroup>
   );
 
