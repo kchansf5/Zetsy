@@ -733,20 +733,39 @@ li.slogan {
   bottom: 3px;
 }
 
-
-
-a:link {
+a:link, :hover, :visited, :active {
     text-decoration: none;
 }
 
-a:visited {
-    text-decoration: none;
+.shopping-cart {
+  margin: 30px 105px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  width: 550px;
 }
 
-a:hover {
-    text-decoration: none;
+.cart-item-img {
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
 }
 
-a:active {
-    text-decoration: none;
+
+.cart-items {
+    display: flex;
+    flex-direction: row;
+    margin: 35px 10px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid red;
+}
+
+.cart-items:last-child {
+  border-bottom: none;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: row;
 }

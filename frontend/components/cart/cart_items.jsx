@@ -38,18 +38,20 @@ class CartItems extends React.Component {
 
 
   render() {
-    debugger;
+    // debugger;
     return (
-      <div className="cart-items">
+      <div className="shopping-cart">
         {this.props.items.map(item => {
           return (
-            <div>
+            <div className="cart-items">
 
-              <div>{item.user_id}</div>
-              <div>{item.product_id}</div>
-              <div>{item.quantity}</div>
-              <div>{item.name}</div>
-              <div>{item.image_url}</div>
+              <div className="left-side">
+                <img className="cart-item-img" src={item.image_url}/>
+                <div>{item.name}</div>
+                <div>{item.quantity}</div>
+              </div>
+
+
             </div>
           );
         })}

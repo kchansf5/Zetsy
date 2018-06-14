@@ -40,10 +40,12 @@ const App = () => (
 
         <GreetingContainer />
 
-        <div className="cart">
-          <i class="fas fa-shopping-cart"></i>
-          <cart className="cart-text">Cart</cart>
-        </div>
+        <Link to="/cart">
+          <div className="cart">
+            <i class="fas fa-shopping-cart"></i>
+            <cart className="cart-text">Cart</cart>
+          </div>
+        </Link>
 
       </header>
 
