@@ -24,7 +24,7 @@ class ProductItem extends React.Component {
   handleClick(e) {
     e.preventDefault();
     // debugger;
-    this.createItem(this.state);
+    this.createItem(this.state).then(this.props.history.push('/cart'));
   }
 
   selectQuantity(e) {
@@ -82,7 +82,7 @@ class ProductItem extends React.Component {
                   Add to cart
                 </button>
               </Link>
-              
+
               <div className="menu">
 
               </div>

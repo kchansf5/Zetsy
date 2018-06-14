@@ -1,6 +1,6 @@
 import React from 'react';
 
-class cartItems extends React.Component {
+class CartItems extends React.Component {
 
   constructor(props) {
     super(props);
@@ -15,26 +15,43 @@ class cartItems extends React.Component {
     //image_url
     //..to display as part of the cart item information
 
+  //
+  // render() {
+  //   console.log(this.state.CartItems);
+  //   return (
+  //
+  //     <div className="cart-items">
+  //       {this.props.items.map(item => {
+  //         return(
+  //           <div>
+  //             {item.product_id}
+  //             {item.quantity}
+  //             Subtotal goes here
+  //             Remove item button goes here
+  //           </div>
+  //         );
+  //       })}
+  //     </div>
+  //
+  //   );
+  // }
+
 
   render() {
-    console.log(this.props.items);
+    debugger;
     return (
-
       <div className="cart-items">
         {this.props.items.map(item => {
-          return(
+          return (
             <div>
-              {item.product_id}
-              {item.quantity}
-              Subtotal goes here
-              Remove item button foes here
+
+              <div>Why are there no cart items here???</div>
             </div>
           );
         })}
       </div>
-
     );
   }
 }
 
-export default cartItems;
+export default CartItems;

@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
 import React from 'react';
-import cartItems from './cart_items';
-import { selectAllItems } from '../../reducers/selectos';
+import CartItems from './cart_items';
+import { selectAllItems } from '../../reducers/selectors';
 import {
   fetchEntireCart,
   createItem,
@@ -9,6 +9,7 @@ import {
   removeItem} from '../../actions/shopping_cart_item_actions';
 
 const mapStateToProps = (state) => {
+  debugger;
   return {
     items: selectAllItems(state)
   };
@@ -23,4 +24,4 @@ const mapDispatchToProps = dispatch => {
   };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(cartItems);
+export default connect(mapStateToProps, mapDispatchToProps)(CartItems);
