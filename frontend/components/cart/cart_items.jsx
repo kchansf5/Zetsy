@@ -40,12 +40,12 @@ class CartItems extends React.Component {
     if (this.props.items.length > 0) {
     return (
       <div className="shopping-cart">
-
+        <div className="num-items">{this.props.items.length} item(s) in your cart</div>
         {this.props.items.map(item => {
           const subtotal = item.price * item.quantity;
           subtotals.push(subtotal);
           return (
-            
+
             <div key={item.id} className="cart-items">
 
               <div className="left-side">
@@ -90,7 +90,7 @@ class CartItems extends React.Component {
                 <button className="remove" onClick={()=>this.props.deleteItem(item.id)}>Remove</button>
 
                 <div>
-                  Total: ${subtotals.reduce((acc, el)=> acc + el)}.00
+                  Item(s) total      ${subtotals.reduce((acc, el)=> acc + el)}.00
                 </div>
             </div>
           );
