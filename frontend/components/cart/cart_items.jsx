@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 
 class CartItems extends React.Component {
 
@@ -49,7 +49,9 @@ class CartItems extends React.Component {
             <div key={item.id} className="cart-items">
 
               <div className="left-side">
-                <img className="cart-item-img" src={item.image_url}/>
+                <Link to={`/products/${item.product_id}`}>
+                  <img className="cart-item-img" src={item.image_url}/>
+                </Link>
 
                 <div className="cart-item-name">{item.name}</div>
 
