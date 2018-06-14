@@ -23,7 +23,7 @@ class CartItems extends React.Component {
                 <img className="cart-item-img" src={item.image_url}/>
                 <div className="cart-item-name">{item.name}</div>
                 <div className="cart-item-quantity">{item.quantity}</div>
-                <div className="cart-item-price">${item.price}.00</div>
+                <div className="cart-item-price">${(item.price * item.quantity)}.00</div>
               </div>
 
 
