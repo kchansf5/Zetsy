@@ -9,30 +9,41 @@ class Api::ShoppingCartItemController < ApplicationController
   end
 
   def create
-  
-    @shopping_cart_item = ShoppingCartItem.new(shopping_cart_item_params)
-    @shopping_cart_item.user_id = current_user.id
+    @shopping_cart_item = ShoppingCartItem.find_by(product_id: params[:item][:product_id], user_id: current_user.id)
 
-    if @shopping_cart_item.save
+    if @shopping_cart_item
+      p @shopping_cart_item
+      @shopping_cart_item.quantity += (params[:item][:quantity]).to_i
+      @shopping_cart_item.save
+      p @shopping_cart_item
       render :show
-    else
-      render json: @shopping_cart_item.errors.full_messages, status: 422
-    end
 
+
+    else
+
+      @shopping_cart_item = ShoppingCartItem.new(shopping_cart_item_params)
+      @shopping_cart_item.user_id = current_user.id
+
+      if @shopping_cart_item.save
+        render :show
+      else
+        render json: @shopping_cart_item.errors.full_messages, status: 422
+      end
+    end
   end
 
   def update
     @shopping_cart_item = ShoppingCartItem.find(params[:id])
     if @shopping_cart_item.update(shopping_cart_item_params)
-      render json: @shopping_cart_item
+      render :show
     else
       render json: @shopping_cart_item.errors.full_messages, status: 422
     end
   end
 
   def destroy
-    @shopping_cart_item = current_user.ShoppingCartItem.find(params[:id])
-    @shoppingcart_item.destroy
+    @shopping_cart_item = ShoppingCartItem.find(params[:id])
+    @shopping_cart_item.destroy
     render :show
   end
 

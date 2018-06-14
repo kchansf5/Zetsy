@@ -12,10 +12,10 @@ const cartReducer = (state = {}, action) => {
       return action.items;
     case RECEIVE_ITEM:
       const newItem = action.item;
-      return merge({}, state, { [newItem.product_id]: newItem});
+      return merge({}, state, { [newItem.id]: newItem});
     case REMOVE_ITEM:
       let newState = merge({}, state);
-      delete newState[action.item];
+      delete newState[action.item.id];
       return newState;
     default:
       return state;

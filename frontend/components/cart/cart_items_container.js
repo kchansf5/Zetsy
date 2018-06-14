@@ -6,7 +6,8 @@ import {
   fetchEntireCart,
   createItem,
   updateItem,
-  removeItem} from '../../actions/shopping_cart_item_actions';
+  removeItem,
+  deleteItem} from '../../actions/shopping_cart_item_actions';
 
 const mapStateToProps = (state) => {
 
@@ -22,6 +23,7 @@ const mapDispatchToProps = dispatch => {
     createItem: (item) => dispatch(createItem(item)),
     updateItem: (item) => dispatch(updateItem(item)),
     removeItem: (item) => dispatch(removeItem(item)),
+    deleteItem: (item) => dispatch(deleteItem(item))
   };
 };
 

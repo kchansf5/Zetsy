@@ -30,6 +30,6 @@ export const updateCartItem = (item) => (
 export const removeCartItem = (item) => (
   $.ajax({
     method: 'DELETE',
-    url: `api/shopping_cart_item/${item.id}`
+    url: `api/shopping_cart_item/${item}`
   })
 );
