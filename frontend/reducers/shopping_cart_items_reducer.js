@@ -11,7 +11,7 @@ const cartReducer = (state = {}, action) => {
     case RECEIVE_ALL_ITEMS:
       return action.items;
     case RECEIVE_ITEM:
-      const newItem = action.item.item;
+      const newItem = action.item;
       return merge({}, state, { [newItem.product_id]: newItem});
     case REMOVE_ITEM:
       let newState = merge({}, state);

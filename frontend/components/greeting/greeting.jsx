@@ -4,23 +4,38 @@ import { Link } from 'react-router-dom';
 const Greeting = ({ currentUser, logout, openModal, demoLogin }) => {
 
   const sessionLinks = () => (
-    <nav className="login-signup">
-      <button class="top-register-button" onClick={() => openModal('signup')}>Register</button>
-      &nbsp; &nbsp;
+  
 
-      <button onClick={() => demoLogin()}>Demo</button>
+      <nav className="login-signup">
+        <button class="top-register-button" onClick={() => openModal('signup')}>Register</button>
+        &nbsp; &nbsp;
 
-      <button onClick={() => openModal('login')}>Sign in</button>
-      &nbsp; &nbsp;
+        <button onClick={() => demoLogin()}>Demo</button>
+
+        <button onClick={() => openModal('login')}>Sign in</button>
+        &nbsp; &nbsp;
+
+          <div className="cart" onClick={() => openModal('login')}>
+            <i class="fas fa-shopping-cart"></i>
+            <cart className="cart-text">Cart</cart>
+          </div>
+
+      </nav>
 
 
-    </nav>
   );
   const personalGreeting = () => (
     <hgroup className="header-group">
       <h3 className="welcome-user">Welcome, {currentUser.username}!</h3>
       <Link to="/">
         <button className="logout" onClick={logout}>Log Out</button>
+      </Link>
+
+      <Link to="/cart">
+        <div className="cart" >
+          <i class="fas fa-shopping-cart"></i>
+          <cart className="cart-text">Cart</cart>
+        </div>
       </Link>
     </hgroup>
   );

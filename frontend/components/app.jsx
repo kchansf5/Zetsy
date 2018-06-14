@@ -40,19 +40,15 @@ const App = () => (
 
         <GreetingContainer />
 
-        <Link to="/cart">
-          <div className="cart">
-            <i class="fas fa-shopping-cart"></i>
-            <cart className="cart-text">Cart</cart>
-          </div>
-        </Link>
+
+
 
       </header>
 
       <CategoryNav />
 
       <Switch>
-        <Route path="/cart" component={CartItemsContainer}/>
+        <ProtectedRoute path="/cart" component={CartItemsContainer}/>
         <Route path="/products/:productId" component={ProductItemContainer}/>
         <Route path="/products" component={ProductsContainer}/>
         <Route exact path="/" component={Banner}/>

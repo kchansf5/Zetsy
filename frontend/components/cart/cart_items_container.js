@@ -9,9 +9,10 @@ import {
   removeItem} from '../../actions/shopping_cart_item_actions';
 
 const mapStateToProps = (state) => {
-  
+
   return {
-    items: selectAllItems(state)
+    items: selectAllItems(state),
+    user_id: state.session.currentUser.id
   };
 };
 
