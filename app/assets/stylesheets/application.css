@@ -31,18 +31,24 @@ header {
   height: 80px;
 }
 
+.logged-out-cart {
+  right: -110px;
+  position: absolute;
+  top: -3px;
+}
+
 i.fas.fa-shopping-cart {
-    position: absolute;
-    right: 70px;
-    top: 16px;
-    font-size: 18px;
-    -webkit-text-fill-color: #666666;
-    cursor: pointer;
-    border-left: 1px solid lightgray;
-    line-height: 30px;
-    padding-left: 15px;
-    padding-bottom: 15px;
-    border-color: #e5e5e5;
+  position: absolute;
+  right: 70px;
+  top: 16px;
+  font-size: 18px;
+  -webkit-text-fill-color: #666666;
+  cursor: pointer;
+  border-left: 1px solid lightgray;
+  line-height: 30px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  border-color: #e5e5e5;
 }
 
 .fas.fa-shopping-cart:hover {
@@ -51,10 +57,6 @@ i.fas.fa-shopping-cart {
 .cart-text:hover {
   -webkit-text-fill-color: black;
 }
-/*
-.cart:hover {
-  -webkit-text-fill-color: black;
-}*/
 
 .cart-text {
   position: absolute;
@@ -64,6 +66,13 @@ i.fas.fa-shopping-cart {
   font-family: "Roboto", sans-serif;
   font-size: 13px;
 }
+
+cart.cart-text {
+    position: absolute;
+    top: 47px;
+}
+
+
 
 a.header-logo {
   height: auto;

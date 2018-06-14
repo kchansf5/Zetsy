@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Greeting = ({ currentUser, logout, openModal, demoLogin }) => {
 
   const sessionLinks = () => (
-  
+
 
       <nav className="login-signup">
         <button class="top-register-button" onClick={() => openModal('signup')}>Register</button>
@@ -15,7 +15,7 @@ const Greeting = ({ currentUser, logout, openModal, demoLogin }) => {
         <button onClick={() => openModal('login')}>Sign in</button>
         &nbsp; &nbsp;
 
-          <div className="cart" onClick={() => openModal('login')}>
+          <div className="logged-out-cart" onClick={() => openModal('login')}>
             <i class="fas fa-shopping-cart"></i>
             <cart className="cart-text">Cart</cart>
           </div>
