@@ -45,7 +45,10 @@ class CartItems extends React.Component {
           return (
             <div>
 
-              <div>Why are there no cart items here???</div>
+              <div>{item.user_id}</div>
+              <div>{item.product_id}</div>
+              <div>{item.quantity}</div>
+              <div>{item.name}</div>
             </div>
           );
         })}
