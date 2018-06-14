@@ -49,6 +49,7 @@ class CartItems extends React.Component {
               <div>{item.product_id}</div>
               <div>{item.quantity}</div>
               <div>{item.name}</div>
+              <div>{item.image_url}</div>
             </div>
           );
         })}
