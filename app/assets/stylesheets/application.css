@@ -769,3 +769,8 @@ a:link, :hover, :visited, :active {
   display: flex;
   flex-direction: row;
 }
+
+.remove {
+  height: 25px;
+  border-radius: 3px
+}

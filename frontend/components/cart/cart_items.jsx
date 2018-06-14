@@ -27,6 +27,12 @@ class CartItems extends React.Component {
     });
   }
 
+
+  handleClick(e) {
+    e.preventDefault();
+    this.props.removeItem(this.item.id);
+  }
+
   render() {
     console.log(this.props.items);
 
@@ -40,8 +46,10 @@ class CartItems extends React.Component {
                 <img className="cart-item-img" src={item.image_url}/>
                 <div className="cart-item-name">{item.name}</div>
 
-                <select value={item.quantity} id="quantity_dropdown"
-                  className="dropdown" onChange={this.updateQuantity(item)}>
+                <select className="cart-item-quantity" value={item.quantity}
+                  id="quantity_dropdown" className="dropdown"
+                  onChange={this.updateQuantity(item)}>
+
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
@@ -53,9 +61,7 @@ class CartItems extends React.Component {
                   <option value="9">9</option>
                   <option value="10">10</option>
                 </select>
-
-                <div className="cart-item-quantity">{item.quantity}</div>
-
+                
                 <div className="cart-item-price">
                   ${(item.price * item.quantity)}.00
                 <br/>
@@ -63,7 +69,7 @@ class CartItems extends React.Component {
                 </div>
 
               </div>
-              <button>Remove</button>
+              <button className="remove" onClick={()=>this.props.removeItem(item.id)}>Remove</button>
 
             </div>
           );
