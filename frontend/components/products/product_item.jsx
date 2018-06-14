@@ -6,7 +6,7 @@ class ProductItem extends React.Component {
   constructor(props){
 
     super(props);
-    // debugger;
+
     this.state = {};
     this.state.quantity = 1;
     this.state.product_id = this.props.match.params.productId;
@@ -23,7 +23,7 @@ class ProductItem extends React.Component {
   // need function to handle clicking the 'Add to Cart' button
   handleClick(e) {
     e.preventDefault();
-    // debugger;
+
     this.createItem(this.state).then(this.props.history.push('/cart'));
   }
 

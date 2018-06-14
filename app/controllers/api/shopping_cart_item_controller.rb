@@ -9,7 +9,7 @@ class Api::ShoppingCartItemController < ApplicationController
   end
 
   def create
-    # debugger
+  
     @shopping_cart_item = ShoppingCartItem.new(shopping_cart_item_params)
     @shopping_cart_item.user_id = current_user.id
 
