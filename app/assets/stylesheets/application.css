@@ -67,6 +67,15 @@ i.fas.fa-shopping-cart {
   font-size: 13px;
 }
 
+.cart-text1 {
+  position: absolute;
+  margin-top: 47px;
+  right: 67px;
+  color: #888888;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+}
+
 cart.cart-text {
     position: absolute;
     top: 47px;

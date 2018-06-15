@@ -17,7 +17,7 @@ const Greeting = ({ currentUser, logout, openModal, demoLogin }) => {
 
           <div className="logged-out-cart" onClick={() => openModal('login')}>
             <i className="fas fa-shopping-cart"></i>
-            <div className="cart-text">Cart</div>
+            <div className="cart-text1">Cart</div>
           </div>
 
       </nav>
