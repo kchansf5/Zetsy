@@ -106,7 +106,12 @@ class CartItems extends React.Component {
     );
   } else {
     return (
-      <div>No items man</div>
+      <div className="empty-cart">
+        <div className="empty-text">Your cart is empty.</div>
+        <div className="keep-shopping2">
+          <Link to="/products"><div className="discover">Discover a piece of Hyrule for yourself</div></Link>
+        </div>
+      </div>
     );
   }
   }

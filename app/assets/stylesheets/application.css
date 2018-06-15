@@ -807,3 +807,34 @@ button.remove {
     margin-left: 60px;
     width: 120px;
 }
+
+.empty-cart {
+  display: flex;
+  flex-direction: column;
+  width: 750px;
+  margin: auto;
+  margin-top: 50px;
+  align-items: center;
+  border: 1px solid lightgray;
+  padding-top: 25px;
+  padding-bottom: 60px;
+}
+
+.discover {
+  color: #E55400;
+}
+.discover:hover {
+  text-decoration: underline;
+}
+
+.discover:focus {
+  color: #E55400;
+}
+
+.empty-text {
+    font-size: 25px;
+    margin: 20px 0px;
+    font-weight: 500;
+    font-family: serif;
+    line-height: 15px;
+}
