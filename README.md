@@ -3,10 +3,10 @@
 Check out the [Live Demo](http://zetsy.herokuapp.com/)
 # Table of Contents
 
-* Introduction
-* Features
-* Future Improvements
-* Technologies
+* [Introduction](#introduction)
+* [Features](#features)
+* [Future Improvements](#future-improvements)
+* [Technologies](#technologies)
 
 
 ## Introduction
