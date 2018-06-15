@@ -66,7 +66,7 @@ class CartItems extends React.Component {
 
                           <div className="col3">
                             <select className="cart-item-quantity" value={item.quantity}
-                              id="quantity_dropdown" className="dropdown"
+                              className="dropdown"
                               onChange={this.updateQuantity(item)}>
                               <option value="1">1</option>
                               <option value="2">2</option>
