@@ -25,7 +25,7 @@ class ProductItem extends React.Component {
   handleClick(e) {
     e.preventDefault();
 
-    this.createItem(this.state).then(this.props.history.push('/cart'));
+    this.createItem(this.state).then(() => this.props.history.push('/cart'));
   }
 
   selectQuantity(e) {
