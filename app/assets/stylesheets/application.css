@@ -783,7 +783,7 @@ a:link, :hover, :visited, :active {
   margin: auto;
   margin-top: 30px;
   align-content: center;
-  width: 950px;
+  width: 1000px;
 }
 .top-of-cart {
     display: flex;
@@ -854,7 +854,7 @@ button.remove {
   margin-top: 20px;
   margin-left: 20px;
   display: flex;
-  width: 500px;
+  width: 550px;
   border-bottom: 1px solid lightgray;
   padding-bottom: 20px;
 }
@@ -902,9 +902,9 @@ button.remove {
 }
 
 .total {
-    display: flex;
-    justify-content: space-between;
-    margin: 50px 0px;
+  display: flex;
+  justify-content: space-between;
+  margin: 45px 6px 25px 5px;
 }
 
 button.checkout-button {
@@ -932,16 +932,22 @@ button.checkout-button:focus {
 
 
 
+.cart-area {
+    background-color: #f5f5f1;
+    height: 350px;
+    display: flex;
+}
 
 .empty-cart {
   display: flex;
+  background-color: white;
   flex-direction: column;
   width: 750px;
   margin: auto;
   margin-top: 50px;
   align-items: center;
   border: 1px solid lightgray;
-  padding-top: 25px;
+  padding-top: 30px;
   padding-bottom: 60px;
 }
 

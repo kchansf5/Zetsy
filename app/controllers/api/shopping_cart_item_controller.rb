@@ -47,6 +47,16 @@ class Api::ShoppingCartItemController < ApplicationController
     render :show
   end
 
+  def checkout
+    @shopping_cart_items = ShoppingCartItem.where(user_id: current_user.id)
+
+    @shopping_cart_items.each do |item|
+      item.destroy
+    end
+
+    render plain: "success"
+  end
+
   private
 
   def shopping_cart_item_params

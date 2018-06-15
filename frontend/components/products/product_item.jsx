@@ -18,6 +18,7 @@ class ProductItem extends React.Component {
   }
 
   componentDidMount() {
+    window.scrollTo(0,0);
     this.props.requestSingleProduct(this.props.match.params.productId);
   }
 

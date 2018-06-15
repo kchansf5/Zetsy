@@ -41,5 +41,5 @@ export const deleteItem = item => dispatch => (
 );
 
 export const deleteAllItems = () => dispatch => (
-  dispatch(removeAllItems())
+  CartAPIUtil.removeAllCartItems().then(() => dispatch(removeAllItems()))
 );

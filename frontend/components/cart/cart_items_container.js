@@ -25,7 +25,7 @@ const mapDispatchToProps = dispatch => {
     updateItem: (item) => dispatch(updateItem(item)),
     removeItem: (item) => dispatch(removeItem(item)),
     deleteItem: (item) => dispatch(deleteItem(item)),
-    deleteAllItems: (item) => dispatch(deleteAllItems(item)),
+    deleteAllItems: () => dispatch(deleteAllItems()),
   };
 };
 

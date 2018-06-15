@@ -30,10 +30,10 @@ const App = () => (
           <div className="logo">Zetsy</div>
         </Link>
 
-        <search className="search">
+        <div className="search">
           <input type="text" placeholder="Search for items or shops">
           </input>
-        </search>
+        </div>
         <button className="search-button">
           Search
         </button>

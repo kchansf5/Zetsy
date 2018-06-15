@@ -7,7 +7,9 @@ class CartItems extends React.Component {
   constructor(props) {
     super(props);
 
-
+    this.state = {
+      checkout: false
+    };
   }
 
   componentDidMount(){
@@ -116,7 +118,7 @@ class CartItems extends React.Component {
                       displayType={'text'} thousandSeparator={true} prefix={'$'}/>
                   </div>
                 </div>
-                <button className="checkout-button" onClick={()=>this.props.deleteAllItems()}>Proceed to checkout</button>
+                <button className="checkout-button" onClick={()=>this.props.deleteAllItems().then(()=>this.setState({checkout: true}))}>Proceed to checkout</button>
               </div>
 
             </div>
@@ -124,16 +126,31 @@ class CartItems extends React.Component {
 
     );
   } else {
-    return (
-      <div className="empty-cart">
-        <div className="empty-text">Your cart is empty.</div>
-        <div className="keep-shopping2">
-          <Link to="/products"><div className="discover">Discover a piece of Hyrule for yourself</div></Link>
+
+    if (this.state.checkout) {
+      return (
+        <div className="cart-area">
+          <div className="empty-cart">
+            <div className="empty-text">Thank you for your order!</div>
+            <div className="keep-shopping2">
+              <Link to="/products"><div className="discover">Continue Shopping</div></Link>
+            </div>
+          </div>
         </div>
-      </div>
-    );
-  }
+      );
+    } else {
+      return (
+          <div className="cart-area">
+            <div className="empty-cart">
+              <div className="empty-text">Your cart is empty.</div>
+              <div className="keep-shopping2">
+                <Link to="/products"><div className="discover">Discover a piece of Hyrule for yourself</div></Link>
+              </div>
+            </div>
+          </div>
+        );
+      }
+    }
   }
 }
-
 export default CartItems;

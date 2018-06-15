@@ -17,7 +17,7 @@ const Greeting = ({ currentUser, logout, openModal, demoLogin }) => {
 
           <div className="logged-out-cart" onClick={() => openModal('login')}>
             <i className="fas fa-shopping-cart"></i>
-            <cart className="cart-text">Cart</cart>
+            <div className="cart-text">Cart</div>
           </div>
 
       </nav>
@@ -34,7 +34,7 @@ const Greeting = ({ currentUser, logout, openModal, demoLogin }) => {
       <Link to="/cart">
         <div className="cart" >
           <i className="fas fa-shopping-cart"></i>
-          <cart className="cart-text">Cart</cart>
+          <div className="cart-text">Cart</div>
         </div>
       </Link>
     </hgroup>

@@ -33,3 +33,11 @@ export const removeCartItem = (item) => (
     url: `api/shopping_cart_item/${item}`
   })
 );
+
+//DELETE all items from the cart
+export const removeAllCartItems = () => (
+  $.ajax({
+    method: 'DELETE',
+    url: 'api/shopping_cart_item/checkout'
+  })
+);

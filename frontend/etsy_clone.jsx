@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 import configureStore from './store/store';
 import Root from './components/root';
 import { signup, login, logout } from './actions/session_actions.js';
-
+import { deleteAllItems } from './actions/shopping_cart_item_actions';
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
   } else {
     store = configureStore();
   }
-
+  window.deleteAllItems = deleteAllItems;
   window.store = store;
   window.login = login;
   window.logout = logout;
