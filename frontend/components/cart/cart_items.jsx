@@ -36,7 +36,6 @@ class CartItems extends React.Component {
 
   render() {
 
-    console.log(this.props.items);
     const subtotals = [];
     if (this.props.items.length > 0) {
     return (
@@ -101,6 +100,9 @@ class CartItems extends React.Component {
           );
         })}
         <button onClick={()=>this.props.deleteAllItems()}>Checkout</button>
+        <Link to="/products"
+          <button>Keep Shopping</button>
+        </Link>
       </div>
 
     );

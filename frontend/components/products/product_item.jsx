@@ -43,7 +43,7 @@ class ProductItem extends React.Component {
           <div className="product-image">
             <img src={this.props.singleProduct.image_url} />
             <div className="description">
-              <div className="des-text" Description>
+              <div className="des-text" >
                 Description
               </div>
               {this.props.singleProduct.description}

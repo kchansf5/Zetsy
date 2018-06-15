@@ -7,7 +7,7 @@ const Greeting = ({ currentUser, logout, openModal, demoLogin }) => {
 
 
       <nav className="login-signup">
-        <button class="top-register-button" onClick={() => openModal('signup')}>Register</button>
+        <button className="top-register-button" onClick={() => openModal('signup')}>Register</button>
         &nbsp; &nbsp;
 
         <button onClick={() => demoLogin()}>Demo</button>
@@ -16,7 +16,7 @@ const Greeting = ({ currentUser, logout, openModal, demoLogin }) => {
         &nbsp; &nbsp;
 
           <div className="logged-out-cart" onClick={() => openModal('login')}>
-            <i class="fas fa-shopping-cart"></i>
+            <i className="fas fa-shopping-cart"></i>
             <cart className="cart-text">Cart</cart>
           </div>
 
@@ -33,7 +33,7 @@ const Greeting = ({ currentUser, logout, openModal, demoLogin }) => {
 
       <Link to="/cart">
         <div className="cart" >
-          <i class="fas fa-shopping-cart"></i>
+          <i className="fas fa-shopping-cart"></i>
           <cart className="cart-text">Cart</cart>
         </div>
       </Link>
