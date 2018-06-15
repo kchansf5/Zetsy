@@ -726,6 +726,8 @@ h2.explore-now {
 }
 
 footer {
+  display: flex;
+  justify-content: space-between;
   border-top: 1px solid #E1E3DF;
   margin-top: 95px;
   padding-bottom: 5px;
@@ -743,12 +745,16 @@ footer {
 
 .footer-items {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   list-style: none;
   margin-right: 20px;
   margin-bottom: 27px;
+  margin-top: 28px;
+  width: 100%;
 }
-
+.footer-right {
+  display: flex;
+}
 .footer-items li {
   margin-right: 38px;
   font-weight: 100;
@@ -756,8 +762,8 @@ footer {
   padding-bottom: 1px;
 }
 
+
 li.slogan {
-  position: relative;
   right: 648px;
   font-size: 13px;
   bottom: 3px;
