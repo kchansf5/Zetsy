@@ -93,9 +93,9 @@ class CartItems extends React.Component {
                 </div>
 
 
-                  <div className="total">Item(s) total ${subtotals.reduce((acc, el)=> acc + el)}.00</div>
 
               </div>
+              <div className="total">Item(s) total ${subtotals.reduce((acc, el)=> acc + el)}.00</div>
           </div>
           );
         })}
