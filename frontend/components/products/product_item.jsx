@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import NumberFormat from 'react-number-format';
 
 class ProductItem extends React.Component {
 
@@ -30,10 +31,6 @@ class ProductItem extends React.Component {
   selectQuantity(e) {
     this.setState({quantity: parseInt(e.target.value)});
   }
-  //clicking should take the user to the cart show page and create a new cart item (with product_id, user_id, and quantity)
-
-
-  //need way to link quantity field with shopping cart item quantity props
 
   render() {
     if (this.props.singleProduct) {
@@ -56,7 +53,8 @@ class ProductItem extends React.Component {
             </div>
 
             <div className="price">
-              ${this.props.singleProduct.price}.00
+              <NumberFormat value={this.props.singleProduct.price + '.00'}
+                displayType={'text'} thousandSeparator={true} prefix={'$'}/>
             </div>
 
             <div className="quantity">
@@ -64,7 +62,8 @@ class ProductItem extends React.Component {
                 Quantity
               </div>
 
-              <select className="quantity-dropdown" value={this.state.quantity} onChange={this.selectQuantity}>
+              <select className="quantity-dropdown" value={this.state.quantity}
+                onChange={this.selectQuantity}>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>

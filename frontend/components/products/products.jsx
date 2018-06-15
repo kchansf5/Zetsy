@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import NumberFormat from 'react-number-format';
 
 class Products extends React.Component {
 
@@ -24,8 +25,8 @@ class Products extends React.Component {
                   {product.product_name}
                 </div>
                 <div className="product-price">
-
-                  ${product.price}.00
+                  <NumberFormat value={product.price + '.00'}
+                    displayType={'text'} thousandSeparator={true} prefix={'$'}/>
                 </div>
               </div>
             </Link>
