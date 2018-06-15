@@ -7,7 +7,8 @@ import {
   createItem,
   updateItem,
   removeItem,
-  deleteItem} from '../../actions/shopping_cart_item_actions';
+  deleteItem,
+  deleteAllItems} from '../../actions/shopping_cart_item_actions';
 
 const mapStateToProps = (state) => {
 
@@ -23,7 +24,8 @@ const mapDispatchToProps = dispatch => {
     createItem: (item) => dispatch(createItem(item)),
     updateItem: (item) => dispatch(updateItem(item)),
     removeItem: (item) => dispatch(removeItem(item)),
-    deleteItem: (item) => dispatch(deleteItem(item))
+    deleteItem: (item) => dispatch(deleteItem(item)),
+    deleteAllItems: (item) => dispatch(deleteAllItems(item)),
   };
 };
 

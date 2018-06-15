@@ -6,6 +6,7 @@ class CartItems extends React.Component {
   constructor(props) {
     super(props);
 
+
   }
 
   componentDidMount(){
@@ -45,65 +46,68 @@ class CartItems extends React.Component {
           const subtotal = item.price * item.quantity;
           subtotals.push(subtotal);
           return (
+            <div>
+              <div key={item.id} className="cart-items">
 
-            <div key={item.id} className="cart-items">
+                <div className="left-side">
+                  <Link to={`/products/${item.product_id}`}>
+                    <img className="cart-item-img" src={item.image_url}/>
+                  </Link>
 
-              <div className="left-side">
-                <Link to={`/products/${item.product_id}`}>
-                  <img className="cart-item-img" src={item.image_url}/>
-                </Link>
+                  <div className="cart-item-name">{item.name}</div>
 
-                <div className="cart-item-name">{item.name}</div>
+                    <select className="cart-item-quantity" value={item.quantity}
+                      id="quantity_dropdown" className="dropdown"
+                      onChange={this.updateQuantity(item)}>
 
-                  <select className="cart-item-quantity" value={item.quantity}
-                    id="quantity_dropdown" className="dropdown"
-                    onChange={this.updateQuantity(item)}>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                      <option value="11">11</option>
+                      <option value="12">12</option>
+                      <option value="13">13</option>
+                      <option value="14">14</option>
+                      <option value="15">15</option>
+                      <option value="16">16</option>
+                      <option value="17">17</option>
+                      <option value="18">18</option>
+                      <option value="19">19</option>
+                      <option value="20">20</option>
+                    </select>
 
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                    <option value="11">11</option>
-                    <option value="12">12</option>
-                    <option value="13">13</option>
-                    <option value="14">14</option>
-                    <option value="15">15</option>
-                    <option value="16">16</option>
-                    <option value="17">17</option>
-                    <option value="18">18</option>
-                    <option value="19">19</option>
-                    <option value="20">20</option>
-                  </select>
+                    <div className="cart-item-price">
+                      ${subtotal}.00
+                    <br/>
+                      (${item.price}.00 each)
+                    </div>
 
-                  <div className="cart-item-price">
-                    ${subtotal}.00
-                  <br/>
-                    (${item.price}.00 each)
+                </div>
+
+                  <button className="remove" onClick={()=>this.props.deleteItem(item.id)}>Remove</button>
+
+                  <div>
+                    Item(s) total ${subtotals.reduce((acc, el)=> acc + el)}.00
                   </div>
 
               </div>
-
-                <button className="remove" onClick={()=>this.props.deleteItem(item.id)}>Remove</button>
-
-                <div>
-                  Item(s) total      ${subtotals.reduce((acc, el)=> acc + el)}.00
-                </div>
-            </div>
+          </div>
           );
         })}
+        <button onClick={()=>this.props.deleteAllItems()}>Checkout</button>
       </div>
 
     );
   } else {
     return (
       <div>No items man</div>
-    )
+    );
   }
   }
 }

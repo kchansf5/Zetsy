@@ -3,7 +3,8 @@ import merge from 'lodash/merge';
 import {
   RECEIVE_ALL_ITEMS,
   RECEIVE_ITEM,
-  REMOVE_ITEM } from '../actions/shopping_cart_item_actions';
+  REMOVE_ITEM,
+  REMOVE_ALL_ITEMS } from '../actions/shopping_cart_item_actions';
 
 const cartReducer = (state = {}, action) => {
   Object.freeze(state);
@@ -17,6 +18,8 @@ const cartReducer = (state = {}, action) => {
       let newState = merge({}, state);
       delete newState[action.item.id];
       return newState;
+    case REMOVE_ALL_ITEMS:
+      return {};
     default:
       return state;
   }
