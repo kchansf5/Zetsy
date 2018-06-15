@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 class CategoryNav extends React.Component {
 
@@ -6,13 +7,13 @@ class CategoryNav extends React.Component {
     return (
       <div className="category_nav">
         <ul className="categories">
-          <li>Food</li>
-          <li>Weapons</li>
-          <li>Shields</li>
-          <li>Armor</li>
-          <li>Accessories</li>
-          <li>Ancient Items</li>
-          <li>Key Items</li>
+          <Link to="/products"><li>Food</li></Link>
+          <Link to="/products"><li>Weapons</li></Link>
+          <Link to="/products"><li>Shields</li></Link>
+          <Link to="/products"><li>Armor</li></Link>
+          <Link to="/products"><li>Accessories</li></Link>
+          <Link to="/products"><li>Ancient Items</li></Link>
+          <Link to="/products"><li>Key Items</li></Link>
         </ul>
       </div>
     );
