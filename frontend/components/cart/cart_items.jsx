@@ -102,8 +102,11 @@ class CartItems extends React.Component {
               </div>
 
               <div className="checkout">
-                <div className="total">Item(s) total ${subtotals.reduce((acc, el)=> acc + el)}.00</div>
-                <button onClick={()=>this.props.deleteAllItems()}>Checkout</button>
+                <div className="total">
+                  <div className="total-text">Item(s) total</div>
+                  <div className="total-cost">${subtotals.reduce((acc, el)=> acc + el)}.00</div>
+                </div>
+                <button className="checkout-button" onClick={()=>this.props.deleteAllItems()}>Proceed to checkout</button>
               </div>
 
             </div>
