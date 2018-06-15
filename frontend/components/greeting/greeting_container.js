@@ -11,7 +11,7 @@ const mapStateToProps = ({ session }) => ({
 const mapDispatchToProps = dispatch => ({
   logout: () => dispatch(logout()),
   openModal: modal => dispatch(openModal(modal)),
-  demoLogin: () => dispatch(login({username: 'demouser', password: 'password'}))
+  demoLogin: () => dispatch(login({username: 'demo user', password: 'password'}))
 });
 
 export default connect(
