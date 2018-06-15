@@ -758,6 +758,24 @@ a:link, :hover, :visited, :active {
     justify-content: space-between;
 }
 
+button.keep-shopping {
+    background-color: #FFF;
+    color: #222;
+    font-weight: bold;
+    height: 28px;
+    padding: 4px 12px;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+button.keep-shopping:hover {
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+button.keep-shopping:focus {
+  outline: none;
+}
+
 .main-cart {
   display: flex;
   justify-content: space-between;

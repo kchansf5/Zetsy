@@ -43,7 +43,7 @@ class CartItems extends React.Component {
 
         <div className="top-of-cart">
           <div className="num-items">{this.props.items.length} item(s) in your cart</div>
-          <Link to="/products"><button>Keep Shopping</button></Link>
+          <Link to="/products"><button class="keep-shopping">Keep Shopping</button></Link>
         </div>
 
             <div className="main-cart">
