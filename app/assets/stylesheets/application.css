@@ -466,7 +466,11 @@ ul.categories li:hover {
   border-bottom: 1px solid #CBC9C7;
   box-shadow: inset 1px 1px 3px rgba(0,0,0,0.1);
   height: 22px;
-  width: 35px;
+  width: 40px;
+}
+
+.quantity-dropdown:focus {
+  outline: none;
 }
 
 .dropdown:hover {
@@ -884,7 +888,7 @@ button.remove {
 }
 
 .item-price {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 100;
     color: gray;
     margin-top: 5px;

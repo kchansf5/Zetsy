@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import NumberFormat from 'react-number-format';
 
 class CartItems extends React.Component {
 
@@ -92,8 +93,14 @@ class CartItems extends React.Component {
                           </div>
 
                           <div className="col4">
-                            <div className="subtotal">${subtotal}.00</div>
-                            <div className="item-price">(${item.price}.00 each)</div>
+                            <div className="subtotal">
+                              <NumberFormat value={subtotal + '.00'}
+                                displayType={'text'} thousandSeparator={true} prefix={'$'}/>
+                            </div>
+                            <div className="item-price">
+                              (<NumberFormat value={item.price + '.00'}
+                                displayType={'text'} thousandSeparator={true} prefix={'$'}/> each)
+                            </div>
                           </div>
 
                     </div>
@@ -104,7 +111,10 @@ class CartItems extends React.Component {
               <div className="checkout">
                 <div className="total">
                   <div className="total-text">Item(s) total</div>
-                  <div className="total-cost">${subtotals.reduce((acc, el)=> acc + el)}.00</div>
+                  <div className="total-cost">
+                    <NumberFormat value={subtotals.reduce((acc, el)=> acc + el) + '.00'}
+                      displayType={'text'} thousandSeparator={true} prefix={'$'}/>
+                  </div>
                 </div>
                 <button className="checkout-button" onClick={()=>this.props.deleteAllItems()}>Proceed to checkout</button>
               </div>
