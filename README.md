@@ -12,7 +12,7 @@ Check out the [Live Demo](http://zetsy.herokuapp.com/)
 
 Zetsy is a Zelda Breath of the Wild themed clone of Etsy, an e-commerce website focused on handmade or vintage items and supplies, as well as unique factory-manufactured items.
 
-![](/Users/Ken/Desktop/a:A/full_stack_project/etsy_clone/readme_screenshots/zetsy-home.png)
+![](https://github.com/kchansf5/etsy_clone/blob/master/readme_screenshots/zetsy-home.png)
 
 ## Features
 ### Feature 1 - Demo and User Accounts
