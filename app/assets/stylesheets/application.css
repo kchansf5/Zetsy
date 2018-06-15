@@ -854,9 +854,22 @@ button.keep-shopping:focus {
 }
 
 button.remove {
-    margin-top: 55px;
-    height: 25px;
-    border-radius: 3px
+  background: none;
+  color: #f45800;
+  border: 1px solid #f45800;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-size: 14px;
+  padding: 5px 9px 7px 9px;
+  height: 30px;
+  width: 80px;
+}
+button.remove:hover {
+  background-color: #FFF3EE;
+}
+
+button.remove:focus {
+  outline: none;
 }
 
 .single-item {
@@ -875,32 +888,35 @@ button.remove {
 
 
 .col2 {
-    margin-top: 5px;
-    margin-left: 20px;
-    margin-right: 14px;
-    width: 110px;
+  margin-left: 20px;
+  margin-right: 14px;
+  width: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 130px;
 }
 .col3 {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 .col4 {
-    margin-top: 5px;
-    margin-left: 60px;
-    width: 120px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+  margin-top: 5px;
+  margin-left: 60px;
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .subtotal {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .item-price {
-    font-size: 13px;
-    font-weight: 100;
-    color: gray;
-    margin-top: 5px;
+  font-size: 13px;
+  font-weight: 100;
+  color: gray;
+  margin-top: 5px;
 }
 
 .checkout {
@@ -917,22 +933,22 @@ button.remove {
 }
 
 button.checkout-button {
-    background: #f45800;
-    color: white;
-    border-color: rgba(0, 0, 0, 0.1);
-    border-radius: 3px;
-    box-sizing: border-box;
-    font-size: 14px;
-    padding: 5px 9px 7px 9px;
-    height: 35px;
-    margin-left: 15px;
-    margin: 18px 5px 13px 5px;
-    font-weight: 600;
+  background: #f45800;
+  color: white;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-size: 14px;
+  padding: 5px 9px 7px 9px;
+  height: 35px;
+  margin-left: 15px;
+  margin: 18px 5px 13px 5px;
+  font-weight: 600;
 }
 
 button.checkout-button:hover {
-  background-color: #ff6905;
-  border-color: rgba(0, 0, 0, 0.2);
+background-color: #ff6905;
+border-color: rgba(0, 0, 0, 0.2);
 }
 
 button.checkout-button:focus {
@@ -942,9 +958,9 @@ button.checkout-button:focus {
 
 
 .cart-area {
-    background-color: #f5f5f1;
-    height: 350px;
-    display: flex;
+  background-color: #f5f5f1;
+  height: 350px;
+  display: flex;
 }
 
 .empty-cart {
@@ -972,9 +988,9 @@ button.checkout-button:focus {
 }
 
 .empty-text {
-    font-size: 25px;
-    margin: 20px 0px;
-    font-weight: 500;
-    font-family: serif;
-    line-height: 15px;
+  font-size: 25px;
+  margin: 20px 0px;
+  font-weight: 500;
+  font-family: serif;
+  line-height: 15px;
 }
