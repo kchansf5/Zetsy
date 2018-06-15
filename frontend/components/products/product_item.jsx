@@ -22,7 +22,6 @@ class ProductItem extends React.Component {
     this.props.requestSingleProduct(this.props.match.params.productId);
   }
 
-  // need function to handle clicking the 'Add to Cart' button
   handleClick(e) {
     e.preventDefault();
 

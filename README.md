@@ -6,12 +6,10 @@ Check out the [Live Demo](http://zetsy.herokuapp.com/)
 * [Introduction](#introduction)
 * [Features](#features)
 * [Future Improvements](#future-improvements)
-* [Technologies](#technologies)
-
 
 ## Introduction
 
-Zetsy is a Zelda Breath of the Wild themed clone of Etsy, an e-commerce website focused on handmade or vintage items and supplies, as well as unique factory-manufactured items.
+Zetsy is a Zelda Breath of the Wild themed clone of Etsy, an e-commerce website focused on handmade or vintage items and supplies, as well as unique factory-manufactured items. Zetsy is built on a Ruby on Rails backend and React frontend.
 
 ![](https://github.com/kchansf5/etsy_clone/blob/master/readme_screenshots/zetsy-home.png)
 
@@ -41,6 +39,3 @@ There are several features and improvements that I would like to make to Zetsy i
 * Search - Allow users to search for items available for sale of Zetsy
 * Comments/Reviews - Allow users to leave comments and reviews on items
 * Category Filters - Allow users to view specific products based on their category
-
-## Technologies
-Zetsy is built on a Rails backend and React frontend.
