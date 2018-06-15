@@ -779,7 +779,31 @@ a:link, :hover, :visited, :active {
   flex-direction: row;
 }
 
-.remove {
-  height: 25px;
-  border-radius: 3px
+button.remove {
+    margin-top: 87px;
+    height: 25px;
+    border-radius: 3px
+}
+
+.single-item {
+    border: 1px solid red;
+    display: flex;
+}
+
+.single-item a {
+    margin: 15px;
+}
+
+.col2 {
+    margin-top: 15px;
+    margin-right: 14px;
+    width: 110px;
+}
+.col3 {
+    margin-top: 6px;
+}
+.col4 {
+    margin-top: 14px;
+    margin-left: 60px;
+    width: 120px;
 }
