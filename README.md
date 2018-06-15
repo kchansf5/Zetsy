@@ -5,6 +5,7 @@ Check out the [Live Demo](http://zetsy.herokuapp.com/)
 
 * Introduction
 * Features
+* Future Improvements
 * Technologies
 
 
@@ -33,6 +34,13 @@ Clicking on the image of a product from the listings page brings the visitor to 
 The shopping cart lists all of the items a logged in user has added. From their cart, a user has the ability to remove items, update item quantity, view subtotal and total costs, and checkout.
 
 ![](https://github.com/kchansf5/etsy_clone/blob/master/readme_screenshots/zetsy-cart.png)
+
+## Future Improvements
+There are several features and improvements that I would like to make to Zetsy in the future. Some of these include:
+
+* Search - Allow users to search for items available for sale of Zetsy
+* Comments/Reviews - Allow users to leave comments and reviews on items
+* Category Filters - Allow users to view specific products based on their category
 
 ## Technologies
 Zetsy is built on a Rails backend and React frontend.
