@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 class CategoryNav extends React.Component {
 
@@ -7,13 +7,13 @@ class CategoryNav extends React.Component {
     return (
       <div className="category_nav">
         <ul className="categories">
-          <Link to="/products/categories/food"><li>Food</li></Link>
-          <Link to="/products/categories/weapons"><li>Weapons</li></Link>
-          <Link to="/products/categories/shields"><li>Shields</li></Link>
-          <Link to="/products/categories/armor"><li>Armor</li></Link>
-          <Link to="/products/categories/accessories"><li>Accessories</li></Link>
-          <Link to="/products/categories/ancient items"><li>Ancient Items</li></Link>
-          <Link to="/products/categories/key items"><li>Key Items</li></Link>
+          <NavLink to="/products/categories/food"><li>Food</li></NavLink>
+          <NavLink to="/products/categories/weapons"><li>Weapons</li></NavLink>
+          <NavLink to="/products/categories/shields"><li>Shields</li></NavLink>
+          <NavLink to="/products/categories/armor"><li>Armor</li></NavLink>
+          <NavLink to="/products/categories/accessories"><li>Accessories</li></NavLink>
+          <NavLink to="/products/categories/ancient items"><li>Ancient Items</li></NavLink>
+          <NavLink to="/products/categories/key items"><li>Key Items</li></NavLink>
         </ul>
       </div>
     );
