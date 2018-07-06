@@ -775,6 +775,14 @@ footer {
   padding-bottom: 1px;
 }
 
+footer li :active, :visited {
+  text-decoration: none;
+  color: black;
+}
+
+footer li :hover {
+  color: #f45800;
+}
 
 li.slogan {
   right: 648px;

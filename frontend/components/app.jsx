@@ -63,8 +63,8 @@ const App = () => (
         <li className="slogan">We make it easy to defeat the Calamity.</li>
         <div className="footer-right">
           <li>© 2018 Zetsy, Inc.</li>
-          <li>GitHub</li>
-          <li>LinkedIn</li>
+          <li className="github"><a href="https://github.com/kchansf5">GitHub</a></li>
+          <li className="linkedin"><a href="https://www.linkedin.com/in/kchansf5/">LinkedIn</a></li>
         </div>
       </ul>
     </footer>
