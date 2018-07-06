@@ -361,9 +361,10 @@ ul.categories li:hover {
 }
 
 .product-listings {
-  display: grid;
-  grid-template-columns: repeat(5, 10%);
-  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(5, 5vw);
+  justify-content: space-between;
   margin-left: 95px;
   margin-right: 150px;
   margin-top: 50px;
