@@ -18,6 +18,7 @@
     "webpack": "^4.11.1"
   },
   "devDependencies": {
+    "webpack-cli": "^3.0.2",
     "redux-logger": "^3.0.6"
   },
   "description": "This README would normally document whatever steps are necessary to get the application up and running.",
@@ -38,8 +39,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "webpack-cli": "^3.0.2"
-  }
+  "license": "ISC"
 }

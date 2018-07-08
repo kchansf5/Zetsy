@@ -14,25 +14,28 @@ class Category extends React.Component {
 
   render() {
     return (
-      <div className="product-listings">
-        {this.props.products.filter(product => product.category === this.props.category).map(product => {
-          return(
+      <div>
+        Back to all products
+        <div className="product-listings">
+          {this.props.products.filter(product => product.category === this.props.category).map(product => {
+            return(
 
-            <Link key={product.id} to={`/products/${product.id}`}>
-              <div className="product">
-                <img src={product.image_url}/>
-                <div className="product-name">
-                  {product.product_name}
+              <Link key={product.id} to={`/products/${product.id}`}>
+                <div className="product">
+                  <img src={product.image_url}/>
+                  <div className="product-name">
+                    {product.product_name}
+                  </div>
+                  <div className="product-price">
+                    <NumberFormat value={product.price + '.00'}
+                      displayType={'text'} thousandSeparator={true} prefix={'$'}/>
+                  </div>
                 </div>
-                <div className="product-price">
-                  <NumberFormat value={product.price + '.00'}
-                    displayType={'text'} thousandSeparator={true} prefix={'$'}/>
-                </div>
-              </div>
-            </Link>
+              </Link>
 
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
     );
   }
