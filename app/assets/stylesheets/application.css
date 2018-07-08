@@ -188,7 +188,17 @@ header button:focus {
   margin: 0px;
 }
 
+
 .top-register-button:hover {
+  background-color: white;
+  text-decoration: underline;
+}
+
+.back {
+  color: #f45800;
+}
+
+.back:hover {
   background-color: white;
   text-decoration: underline;
 }
