@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import NumberFormat from 'react-number-format';
 
 class Category extends React.Component {
@@ -14,13 +14,12 @@ class Category extends React.Component {
 
   render() {
     return (
-      <div>
-        <Link className ="back" to={"/products"}>Back to all products</Link>
+      <div className="category-products">
+        <div className="back"><NavLink to={"/products"}>Back to all products</NavLink></div>
         <div className="product-listings">
           {this.props.products.filter(product => product.category === this.props.category).map(product => {
             return(
-
-              <Link key={product.id} to={`/products/${product.id}`}>
+              <NavLink key={product.id} to={`/products/${product.id}`}>
                 <div className="product">
                   <img src={product.image_url}/>
                   <div className="product-name">
@@ -31,11 +30,11 @@ class Category extends React.Component {
                       displayType={'text'} thousandSeparator={true} prefix={'$'}/>
                   </div>
                 </div>
-              </Link>
-
+              </NavLink>
             );
           })}
         </div>
+
       </div>
     );
   }
