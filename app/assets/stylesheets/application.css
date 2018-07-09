@@ -195,6 +195,7 @@ header button:focus {
 }
 
 .back {
+  margin: 20px 0px;
   color: #f45800;
 }
 
