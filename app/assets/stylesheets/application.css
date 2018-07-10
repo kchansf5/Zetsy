@@ -195,9 +195,14 @@ header button:focus {
 }
 
 
-.back {
+a.active {
+  color: #f45800;
+}
+
+.back-to-products {
   color: #f45800;
   margin: 20px 0px;
+  margin-left: 105px;
 }
 
 .back:hover {
@@ -378,7 +383,7 @@ ul.categories li:hover {
   justify-content: space-between;
   margin-left: 95px;
   margin-right: 150px;
-  margin-top: 50px;
+  margin-top: 15px;
 }
 
 .product:hover {
@@ -853,6 +858,7 @@ button.keep-shopping:focus {
 .all-items {
   color: #f45800;
   margin: 20px 0px;
+  margin-left: 105px;
   padding-right: 30px;
   border-right: 1px solid lightgray;
 }
