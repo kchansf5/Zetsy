@@ -15,7 +15,7 @@ class Category extends React.Component {
   render() {
     return (
       <div className="category-products">
-        <div className="back"><NavLink to={"/products"}>Back to all products</NavLink></div>
+        <div className="back"><a className="back" href="/products">Back to all products</a></div>
         <div className="product-listings">
           {this.props.products.filter(product => product.category === this.props.category).map(product => {
             return(

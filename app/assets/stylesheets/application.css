@@ -194,9 +194,10 @@ header button:focus {
   text-decoration: underline;
 }
 
+
 .back {
-  margin: 20px 0px;
   color: #f45800;
+  margin: 20px 0px;
 }
 
 .back:hover {
@@ -850,6 +851,7 @@ button.keep-shopping:focus {
 }
 
 .all-items {
+  color: #f45800;
   margin: 20px 0px;
   padding-right: 30px;
   border-right: 1px solid lightgray;
