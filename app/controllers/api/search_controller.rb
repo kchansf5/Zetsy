@@ -1,6 +1,6 @@
 class Api::SearchController < ApplicationController
   def index
-    debugger
+    # debugger
     @search_items = Product.search_name(params[:query])
     render 'api/search/index'
   end
