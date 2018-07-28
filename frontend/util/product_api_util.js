@@ -11,3 +11,11 @@ export const fetchSingleProduct = id => (
     url: `api/products/${id}`
   })
 );
+
+export const fetchSearchProduct = query => {
+  return $.ajax({
+    method: "GET",
+    url: '/api/search',
+    data: {query}
+  });
+};

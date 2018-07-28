@@ -32,7 +32,7 @@ const App = () => (
         </Link>
 
         <div className="search">
-          <input type="text" placeholder="Search for items throughout Hyrule">
+          <input type="text" placeholder="Search for items or shops">
           </input>
         </div>
         <button className="search-button">

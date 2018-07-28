@@ -16,7 +16,7 @@ class Banner extends React.Component {
                   <div className="bottom">
                     <h2>Shop now</h2>
                     <div className="arrow-box">
-                      <i class="fas fa-chevron-right"></i>
+                      <i className="fas fa-chevron-right"></i>
                     </div>
                   </div>
                 </div>
