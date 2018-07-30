@@ -388,7 +388,7 @@ ul.categories li:hover {
 
 .product:hover {
   box-shadow: 0px 0px 5px #ff6905;
-  border: none;
+  border: 1px solid rgba(255,105,5,0.25);
   transform: scale(1.01);
 }
 
