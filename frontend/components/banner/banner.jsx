@@ -5,6 +5,7 @@ class Banner extends React.Component {
 
   render() {
     return (
+      <div className="homepage">
       <div className="banner">
 
         <Link to="/products/categories/accessories">
@@ -48,7 +49,12 @@ class Banner extends React.Component {
           </Link>
 
         </div>
+
       </div>
+      <div className="inspiration">Inspiration updated daily</div>
+      <div className="inspiration-sub">Make your day a little more interesting</div>
+      
+    </div>
     );
   }
 

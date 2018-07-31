@@ -755,6 +755,22 @@ h2.explore-now {
   margin-top: 20px;
 }
 
+.inspiration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 32px;
+  margin-top: 45px;
+  font-weight: 600;
+}
+
+.inspiration-sub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+  margin-top: 10px;
+}
 footer {
   display: flex;
   justify-content: space-between;
