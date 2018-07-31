@@ -1,7 +1,9 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import { withRouter } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 import {ProductItem} from '../products/product_item';
+import NumberFormat from 'react-number-format';
+
 
 class SearchResults extends React.Component {
   constructor(props) {
@@ -12,12 +14,21 @@ class SearchResults extends React.Component {
 
   render () {
     return (
-      <div>
+      <div className="product-listings">
         {this.props.searchItems.map(product => {
-          return (
-            <div>
-              {product.product_name}
-            </div>
+          return(
+            <Link key={product.id} to={`/products/${product.id}`}>
+              <div className="product">
+                <img src={product.image_url}/>
+                <div className="product-name">
+                  {product.product_name}
+                </div>
+                <div className="product-price">
+                  <NumberFormat value={product.price + '.00'}
+                    displayType={'text'} thousandSeparator={true} prefix={'$'}/>
+                </div>
+              </div>
+            </Link>
           );
         })}
       </div>

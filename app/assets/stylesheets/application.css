@@ -380,7 +380,6 @@ ul.categories li:hover {
   display: flex;
   flex-wrap: wrap;
   grid-template-columns: repeat(5, 5vw);
-  justify-content: space-between;
   margin-left: 95px;
   margin-right: 150px;
   margin-top: 15px;
