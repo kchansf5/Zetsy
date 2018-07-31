@@ -1,6 +1,7 @@
 import React from 'react';
 import SearchResults from './search';
 import { connect } from 'react-redux';
+import { withRouter } from 'react-router-dom';
 import {fetchSearchProduct} from '../../actions/product_actions';
 
 const mapStateToProps = (state) => {
@@ -9,4 +10,4 @@ const mapStateToProps = (state) => {
   };
 };
 
-export default withRouter(connect(mapStateToProps, null)(SearchResults))
+export default withRouter(connect(mapStateToProps, null)(SearchResults));
