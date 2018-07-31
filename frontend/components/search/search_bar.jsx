@@ -1,4 +1,7 @@
 import React from 'react';
+import {connect} from 'react-redux';
+import { withRouter} from 'react-router-dom';
+import {fetchSearchProduct} from '../../actions/product_actions';
 
 class SearchBar extends React.Component {
   constructor(props) {
@@ -42,4 +45,19 @@ class SearchBar extends React.Component {
   }
 }
 
-export default SearchBar;
+
+const mapStateToProps = (state, ownProps) => {
+  return {
+    products: Object.values(state.products)
+  };
+};
+
+
+const mapDispatchToProps = dispatch => {
+  return {
+    fetchSearchProduct: query => dispatch(fetchSearchProduct(query))
+  };
+};
+
+
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(SearchBar));

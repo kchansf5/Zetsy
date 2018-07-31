@@ -16,6 +16,8 @@ import ProductsContainer from './products/products_container';
 import ProductItemContainer from './products/product_item_container';
 import CategoryContainer from './category/category_container';
 import CartItemsContainer from './cart/cart_items_container';
+import SearchBar from './search/search_bar';
+import SearchResults from './search/search_results';
 import Banner from './banner/banner';
 import CategoryNav from './category_nav/category_nav';
 import { AuthRoute, ProtectedRoute } from '../util/route_util';
@@ -30,14 +32,15 @@ const App = () => (
         <Link to="/" className="header-logo">
           <div className="logo">Zetsy</div>
         </Link>
+        <SearchBar />
 
         <div className="search">
-          <input type="text" placeholder="Search for items throughout Hyrule">
-          </input>
+          {/* <input type="text" placeholder="Look for items throughout Hyrule">
+          </input> */}
         </div>
-        <button className="search-button">
+        {/* <button className="search-button">
           Search
-        </button>
+        </button> */}
 
         <GreetingContainer />
 
@@ -53,6 +56,7 @@ const App = () => (
         <Route path="/products/categories/:category" component={CategoryContainer}/>
         <Route path="/products/:productId" component={ProductItemContainer}/>
         <Route path="/products" component={ProductsContainer}/>
+        <Route path="/search" component={SearchResults}/>
         <Route exact path="/" component={Banner}/>
         <Redirect to="/"></Redirect>
       </Switch>

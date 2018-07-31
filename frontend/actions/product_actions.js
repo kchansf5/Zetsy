@@ -27,6 +27,18 @@ export const requestSingleProduct = (id) => (dispatch) => (
   APIUtil.fetchSingleProduct(id).then(product => dispatch(receiveSingleProduct(product)))
 );
 
+// export const fetchSearchProduct = (query) => (dispatch) => (
+//   APIUtil.fetchSearchProducts(query).then(searchResult => dispatch(receiveSearchProducts(searchResult)))
+// );
+//
+// export const fetchSearchProducts = query => {
+//   return dispatch => {
+//     return APIUtil.fetchSearchProducts(query).then(searchResults => {
+//       return dispatch(receiveSearchProducts(searchResults));
+//     });
+//   };
+// };
+
 export const fetchSearchProduct = query => {
   return dispatch => {
     return APIUtil.fetchSearchProduct(query).then(searchProducts => {

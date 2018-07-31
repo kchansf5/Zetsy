@@ -10,8 +10,10 @@ const productsReducer = (state = {}, action) => {
     case RECEIVE_SINGLE_PRODUCT:
       const newProduct = action.payload.product;
       return merge({}, state, { [newProduct.id]: newProduct});
+    // case RECEIVE_SEARCH_PRODUCTS:
+    //   return action.searchResult;
     case RECEIVE_SEARCH_PRODUCTS:
-      return action.products;
+        return action.products;
     default:
       return state;
   }
