@@ -805,7 +805,7 @@ h2.explore-now {
   width: 300px;
   height: 200px;
   /*border: 1px solid blue;*/
-  background-image: url('desert.png');
+  background-image: url('https://github.com/kchansf5/Zetsy/blob/master/app/assets/images/desert.png');
   background-size: 100%;
   background-repeat: no-repeat;
   margin: 15px;
