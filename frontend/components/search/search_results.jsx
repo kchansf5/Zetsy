@@ -13,55 +13,42 @@ class SearchResults extends React.Component {
 
 
   render () {
-    return (
-      <div className="product-listings">
-        {this.props.searchItems.map(product => {
-          return(
-            <Link key={product.id} to={`/products/${product.id}`}>
-              <div className="product">
-                <img src={product.image_url}/>
-                <div className="product-name">
-                  {product.product_name}
+    const query = this.props.searchItems[0];
+    if (typeof query === "string") {
+      return (
+        <main>
+          <div className="cant-find-box">
+
+            {/* <div>"{query}" not found!</div> */}
+            <div>TEST</div>
+
+            <div className="cant-find"></div>
+          </div>
+        </main>
+      );
+    } else {
+      return (
+        <div className="product-listings">
+          {this.props.searchItems.map(product => {
+            return(
+              <Link key={product.id} to={`/products/${product.id}`}>
+                <div className="product">
+                  <img src={product.image_url}/>
+                  <div className="product-name">
+                    {product.product_name}
+                  </div>
+                  <div className="product-price">
+                    <NumberFormat value={product.price + '.00'}
+                      displayType={'text'} thousandSeparator={true} prefix={'$'}/>
+                  </div>
                 </div>
-                <div className="product-price">
-                  <NumberFormat value={product.price + '.00'}
-                    displayType={'text'} thousandSeparator={true} prefix={'$'}/>
-                </div>
-              </div>
-            </Link>
-          );
-        })}
-      </div>
-    );
+              </Link>
+            );
+          })}
+        </div>
+      );
+    }
   }
-  //
-  // render() {
-  //   const query = this.props.searchItems[0];
-  //   if (typeof query === "string") {
-  //     return (
-  //       <main>
-  //         <div className="cant-find-box">
-  //
-  //           <div>"{query}" not found!</div>
-  //
-  //           <div className="cant-find"></div>
-  //         </div>
-  //       </main>
-  //     );
-  //   } else {
-  //
-  //     return (
-  //       <main>
-  //         <div className="category-box">
-  //           <div>
-  //             {this.props.searchItems.map(product =>
-  //               <ProductItem product={product} key={product.id} />)}
-  //           </div>
-  //         </div>
-  //       </main>
-  //     );
-  //   }
-  //   }
 }
 
 

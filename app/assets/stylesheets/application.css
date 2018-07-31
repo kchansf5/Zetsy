@@ -614,8 +614,8 @@ button.add:hover {
   height: 330px;
   background-color: #31486c;
   border-right: none;
-  border-bottom-left-radius: 3px;
-  border-top-left-radius: 3px;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
   padding: 0px 40px;
 }
 
@@ -667,7 +667,7 @@ i.fas.fa-chevron-right {
   object-fit: cover;
   border: 1px solid lightgray;
   border-left: none;
-  border-radius: 3px;
+  border-radius: 4px;
   border-bottom-left-radius: 0px;
   border-top-left-radius: 0px;
 }
@@ -679,7 +679,7 @@ i.fas.fa-chevron-right {
   width: 425px;
   height: 230px;
   border: 1px solid lightgray;
-  border-radius: 3px;;
+  border-radius: 4px;;
 }
 
 .top-right:hover {
@@ -727,7 +727,7 @@ h2.explore-now {
   padding: 18px 60px;
   padding-right: 185px;
   padding-left: 20px;
-  border-radius: 3px;
+  border-radius: 4px;
   border: 1px solid lightgray;
 }
 

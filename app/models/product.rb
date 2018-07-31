@@ -8,7 +8,7 @@ class Product < ApplicationRecord
   # pg_search_scope :search_name, :against => :product_name
   pg_search_scope :search_name,
   :against =>
-  [:product_name, :description, :category],
+  [:product_name, :category],
   :using => {
     :tsearch => {
       :prefix => true,
