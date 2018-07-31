@@ -202,7 +202,7 @@ a.active {
 .back-to-products {
   color: #f45800;
   margin: 20px 0px;
-  margin-left: 105px;
+  margin-left: 155px;
 }
 
 .back:hover {
@@ -856,7 +856,7 @@ button.keep-shopping:focus {
 .all-items {
   color: #f45800;
   margin: 20px 0px;
-  margin-left: 10px;
+  margin-left: 155px;
   padding-right: 30px;
   border-right: 1px solid lightgray;
 }
