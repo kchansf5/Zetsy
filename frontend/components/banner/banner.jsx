@@ -53,7 +53,13 @@ class Banner extends React.Component {
       </div>
       <div className="inspiration">Inspiration updated daily</div>
       <div className="inspiration-sub">Make your day a little more interesting</div>
-      
+      <div className="all-tiles">
+        <div className="small-tiles">
+          <div className="small-tile">small-1</div>
+          <div className="small-tile">small-2</div>
+        </div>
+        <div className="large-tiles">large-1</div>
+      </div>
     </div>
     );
   }

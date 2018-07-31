@@ -593,7 +593,11 @@ button.add:hover {
 
 
 
-
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .slide1 {
   display: flex;
@@ -760,7 +764,6 @@ h2.explore-now {
   flex-direction: column;
   align-items: center;
   font-size: 32px;
-  margin-top: 45px;
   font-weight: 600;
 }
 
@@ -770,6 +773,33 @@ h2.explore-now {
   align-items: center;
   font-size: 15px;
   margin-top: 10px;
+}
+
+.all-tiles {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1300px;
+  border: 1px solid red;
+}
+
+.small-tiles {
+  display: flex;
+  flex-direction: row;
+}
+
+.small-tile {
+  width: 200px;
+  height: 200px;
+  border: 1px solid blue;
+}
+
+.large-tiles {
+  width: 402px;
+  height: 402px;
+  border: 1px solid green;
 }
 footer {
   display: flex;
