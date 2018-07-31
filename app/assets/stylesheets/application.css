@@ -776,13 +776,25 @@ h2.explore-now {
 }
 
 .all-tiles {
-  margin-top: 20px;
+  margin-top: 40px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 1300px;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
+}
+
+.left-tiles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right-tiles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .small-tiles {
@@ -790,17 +802,81 @@ h2.explore-now {
   flex-direction: row;
 }
 
-.small-tile {
-  width: 200px;
+#small:hover{
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, .25);
+}
+
+.small-tile-1 {
+  width: 300px;
   height: 200px;
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
+  background-image: url('desert.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 15px;
+}
+
+.small-tile-2 {
+  width: 300px;
+  height: 200px;
+  /*border: 1px solid blue;*/
+  background-image: url('paraglider.png');
+  background-size: 110%;
+  background-repeat: no-repeat;
+  margin: 15px;
+}
+
+.small-tile-3 {
+  width: 300px;
+  height: 200px;
+  /*border: 1px solid blue;*/
+  background-image: url('traveler_shield.png');
+  background-size: 120%;
+  background-repeat: no-repeat;
+  margin: 15px;
+}
+
+.small-tile-4 {
+  width: 300px;
+  height: 200px;
+  /*border: 1px solid blue;*/
+  background-image: url('camp.png');
+  background-size: 120%;
+  background-repeat: no-repeat;
+  margin: 15px;
 }
 
 .large-tiles {
-  width: 402px;
-  height: 402px;
-  border: 1px solid green;
 }
+
+.large-tile-1 {
+  /*border: 1px solid blue;*/
+  width: 632px;
+  height: 632px;
+  background-image: url('snow.png');
+  background-size: 115%;
+  background-repeat: no-repeat;
+  margin: 15px;
+}
+
+.large-tile-2 {
+  /*border: 1px solid blue;*/
+  width: 632px;
+  height: 632px;
+  background-image: url('climb.png');
+  background-size: 116%;
+  background-repeat: no-repeat;
+  margin: 15px;
+}
+
+.large-tile-1:hover{
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, .25);
+}
+
+.large-tile-2:hover{
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, .25);
+}
+
 footer {
   display: flex;
   justify-content: space-between;

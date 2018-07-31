@@ -51,7 +51,9 @@ const App = () => (
     </div>
 
     <footer>
-      <div className="footer-logo">Zetsy</div>
+      <a href="#/">
+        <div className="footer-logo">Zetsy</div>
+      </a>  
       <ul className="footer-items">
         <li className="slogan">We make it easy to defeat the Calamity.</li>
         <div className="footer-right">

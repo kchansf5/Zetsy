@@ -54,11 +54,36 @@ class Banner extends React.Component {
       <div className="inspiration">Inspiration updated daily</div>
       <div className="inspiration-sub">Make your day a little more interesting</div>
       <div className="all-tiles">
-        <div className="small-tiles">
-          <div className="small-tile">small-1</div>
-          <div className="small-tile">small-2</div>
+        <div className="left-tiles">
+          <div className="small-tiles">
+            <a href="#/products/45">
+              <div id="small" className="small-tile-1"></div>
+            </a>
+            <a href="#/products/77">
+              <div id="small" className="small-tile-2"></div>
+            </a>
+          </div>
+          <div className="large-tiles">
+            <a href="#/products/44">
+              <div id="large" className="large-tile-1"></div>
+            </a>
+          </div>
         </div>
-        <div className="large-tiles">large-1</div>
+        <div className="right-tiles">
+          <div className="large-tiles">
+            <a href="#/products/54">
+              <div id="large" className="large-tile-2"></div>
+            </a>
+          </div>
+          <div className="small-tiles">
+            <a href="#/products/28">
+              <div id="small" className="small-tile-3"></div>
+            </a>
+            <a href="#/products/3">
+              <div id="small" className="small-tile-4"></div>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
     );
