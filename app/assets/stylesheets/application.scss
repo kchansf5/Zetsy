@@ -805,7 +805,7 @@ h2.explore-now {
   width: 300px;
   height: 200px;
   /*border: 1px solid blue;*/
-  background-image: url('https://github.com/kchansf5/Zetsy/blob/master/app/assets/images/desert.png');
+  background-image: image_url('desert.png');
   background-size: 100%;
   background-repeat: no-repeat;
   margin: 15px;
@@ -815,7 +815,7 @@ h2.explore-now {
   width: 300px;
   height: 200px;
   /*border: 1px solid blue;*/
-  background-image: url('paraglider.png');
+  background-image: image_url('paraglider.png');
   background-size: 110%;
   background-repeat: no-repeat;
   margin: 15px;
@@ -825,7 +825,7 @@ h2.explore-now {
   width: 300px;
   height: 200px;
   /*border: 1px solid blue;*/
-  background-image: url('traveler_shield.png');
+  background-image: image_url('traveler_shield.png');
   background-size: 120%;
   background-repeat: no-repeat;
   margin: 15px;
@@ -835,7 +835,7 @@ h2.explore-now {
   width: 300px;
   height: 200px;
   /*border: 1px solid blue;*/
-  background-image: url('camp.png');
+  background-image: image_url('camp.png');
   background-size: 120%;
   background-repeat: no-repeat;
   margin: 15px;
@@ -848,7 +848,7 @@ h2.explore-now {
   /*border: 1px solid blue;*/
   width: 632px;
   height: 632px;
-  background-image: url('snow.png');
+  background-image: image_url('snow.png');
   background-size: 115%;
   background-repeat: no-repeat;
   margin: 15px;
@@ -858,7 +858,7 @@ h2.explore-now {
   /*border: 1px solid blue;*/
   width: 632px;
   height: 632px;
-  background-image: url('climb.png');
+  background-image: image_url('climb.png');
   background-size: 116%;
   background-repeat: no-repeat;
   margin: 15px;
