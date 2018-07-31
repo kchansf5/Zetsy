@@ -28,17 +28,17 @@ class SearchBar extends React.Component {
   render() {
     console.log(this.state.query);
     return (
-      <form className="searchform" onSubmit={this.onFormSubmit} >
-      <div className="searchbox">
+      <form className="search" onSubmit={this.onFormSubmit} >
+      <div className="search">
         <input
-          placeholder="Search for items"
+          placeholder="Search for items throughout Hyrule"
           className="search-field"
           value={this.state.query}
           onChange={this.onInputChange} />
 
-        <span className="outer-search">
-          <button type='submit' className="search-button">Search</button>
-        </span>
+        <div>
+          <button className="search-button" type='submit' className="search-button">Search</button>
+        </div>
         </div>
       </form>
     );

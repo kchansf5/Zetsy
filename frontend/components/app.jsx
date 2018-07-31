@@ -33,20 +33,7 @@ const App = () => (
           <div className="logo">Zetsy</div>
         </Link>
         <SearchBar />
-
-        <div className="search">
-          {/* <input type="text" placeholder="Look for items throughout Hyrule">
-          </input> */}
-        </div>
-        {/* <button className="search-button">
-          Search
-        </button> */}
-
         <GreetingContainer />
-
-
-
-
       </header>
 
       <CategoryNav />

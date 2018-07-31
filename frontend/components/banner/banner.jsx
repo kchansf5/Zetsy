@@ -7,7 +7,7 @@ class Banner extends React.Component {
     return (
       <div className="banner">
 
-        <Link to="/products">
+        <Link to="/products/categories/accessories">
           <div className="slideshow">
               <div className="slide1">
                 <div className="slide-text">
