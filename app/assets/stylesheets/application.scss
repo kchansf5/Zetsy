@@ -803,7 +803,6 @@ h2.explore-now {
 
 #small {
   transition: all .2s ease-in-out;
-
 }
 
 #small:hover{
@@ -851,7 +850,13 @@ h2.explore-now {
   margin: 15px;
 }
 
-.large-tiles {
+#large {
+  transition: all .2s ease-in-out;
+}
+
+#large:hover{
+  transform: scale(1.01);
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, .25);
 }
 
 .large-tile-1 {
