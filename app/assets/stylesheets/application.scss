@@ -1053,6 +1053,7 @@ button.remove:focus {
 .single-item {
   margin-top: 20px;
   margin-left: 20px;
+  margin-right: 15px;
   display: flex;
   width: 550px;
   border-bottom: 1px solid lightgray;
@@ -1097,6 +1098,13 @@ button.remove:focus {
   margin-top: 5px;
 }
 
+.all-cart-items {
+  margin-left: 10px;
+  border-right: 1px solid lightgray;
+  margin: 20px 0px;
+
+
+}
 .checkout {
   display: flex;
   flex-direction: column;

@@ -50,7 +50,7 @@ class CartItems extends React.Component {
         </div>
 
             <div className="main-cart">
-              <div className="all-items">
+              <div className="all-cart-items">
                     {this.props.items.map(item => {
                       const subtotal = item.price * item.quantity;
                       subtotals.push(subtotal);
