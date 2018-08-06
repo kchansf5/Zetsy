@@ -782,7 +782,6 @@ h2.explore-now {
   justify-content: center;
   align-items: center;
   width: 1300px;
-  /*border: 1px solid red;*/
 }
 
 .left-tiles {
@@ -802,7 +801,13 @@ h2.explore-now {
   flex-direction: row;
 }
 
+#small {
+  transition: all .2s ease-in-out;
+
+}
+
 #small:hover{
+  transform: scale(1.02);
   box-shadow: 2px 3px 5px rgba(0, 0, 0, .25);
 }
 
@@ -882,6 +887,7 @@ h2.explore-now {
   flex-direction: row;
   justify-content: space-between;
   margin-top: 30px;
+  margin-bottom: 50px;
 }
 i.fas.fa-check {
   color: #E55400;
@@ -898,13 +904,13 @@ i.fas.fa-check {
 .check-2 {
     margin: 0px 20px;
     text-align: center;
-    width: 380px;
+    width: 400px;
 }
 
 .check-3 {
     margin: 0px 20px;
     text-align: center;
-    width: 330px;
+    width: 400px;
 }
 
 footer {
