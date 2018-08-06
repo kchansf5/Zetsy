@@ -51,24 +51,26 @@ class Banner extends React.Component {
         </div>
 
       </div>
-      <div className="inspiration">Inspiration updated daily</div>
-      <div className="inspiration-sub">Make your day a little more interesting</div>
-      <div className="all-tiles">
-        <div className="left-tiles">
-          <div className="small-tiles">
-            <a href="#/products/45">
-              <div id="small" className="small-tile-1"></div>
-            </a>
-            <a href="#/products/77">
-              <div id="small" className="small-tile-2"></div>
-            </a>
-          </div>
+        <div className="inspiration">Inspiration updated daily</div>
+        <div className="inspiration-sub">Make your day a little more interesting</div>
+
+        <div className="all-tiles">
+          <div className="left-tiles">
+            <div className="small-tiles">
+              <a href="#/products/45">
+                <div id="small" className="small-tile-1"></div>
+              </a>
+              <a href="#/products/77">
+                <div id="small" className="small-tile-2"></div>
+              </a>
+            </div>
           <div className="large-tiles">
             <a href="#/products/44">
               <div id="large" className="large-tile-1"></div>
             </a>
           </div>
         </div>
+
         <div className="right-tiles">
           <div className="large-tiles">
             <a href="#/products/54">
@@ -85,6 +87,11 @@ class Banner extends React.Component {
           </div>
         </div>
       </div>
+
+      <div className="checks">
+        <i class="fas fa-check"></i>
+      </div>
+
     </div>
     );
   }
