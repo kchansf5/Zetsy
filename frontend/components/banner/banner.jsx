@@ -90,13 +90,22 @@ class Banner extends React.Component {
 
       <div className="checks">
         <div className="check-1">
-          <i class="fas fa-check">  Unique everything</i>
+          <i class="fas fa-check"></i>
+          Unique everything
+          <br></br>
+          We have millions of one-of-a-kind items, so you can find whatever you need (or really, really want).
         </div>
         <div className="check-2">
-          <i class="fas fa-check">  Independent sellers</i>
+          <i class="fas fa-check"></i>
+          Independent sellers
+          <br></br>
+          Buy directly from someone who put their heart and soul into making something special.
         </div>
         <div className="check-3">
-          <i class="fas fa-check">  Secure shopping</i>
+          <i class="fas fa-check"></i>
+          Secure shopping
+          <br></br>
+          We use best-in-class technology to protect your transactions.
         </div>
       </div>
 

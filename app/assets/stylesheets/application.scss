@@ -877,6 +877,36 @@ h2.explore-now {
   box-shadow: 2px 3px 5px rgba(0, 0, 0, .25);
 }
 
+.checks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+i.fas.fa-check {
+  color: #E55400;
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+.check-1 {
+    margin: 0px 20px;
+    text-align: center;
+    width: 400px;
+}
+
+.check-2 {
+    margin: 0px 20px;
+    text-align: center;
+    width: 380px;
+}
+
+.check-3 {
+    margin: 0px 20px;
+    text-align: center;
+    width: 330px;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
