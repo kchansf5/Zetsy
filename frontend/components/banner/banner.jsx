@@ -89,7 +89,15 @@ class Banner extends React.Component {
       </div>
 
       <div className="checks">
-        <i class="fas fa-check"></i>
+        <div className="check-1">
+          <i class="fas fa-check">  Unique everything</i>
+        </div>
+        <div className="check-2">
+          <i class="fas fa-check">  Independent sellers</i>
+        </div>
+        <div className="check-3">
+          <i class="fas fa-check">  Secure shopping</i>
+        </div>
       </div>
 
     </div>
