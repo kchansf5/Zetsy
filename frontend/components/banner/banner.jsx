@@ -116,9 +116,11 @@ class Banner extends React.Component {
 
       <div className="etsy-safe">
         <div className="safe-header">Etsy keeps you safe</div>
-        <div className="trustworthy">Trustworthy sellers</div>
-        <div className="world">World-class security</div>
-        <div className="purchase">Purchase protection</div>
+        <div className="safe-subs">
+          <div className="trustworthy">Trustworthy sellers</div>
+          <div className="world">World-class security</div>
+          <div className="purchase">Purchase protection</div>
+        </div>
       </div>
     </div>
     );

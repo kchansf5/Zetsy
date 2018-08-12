@@ -919,7 +919,17 @@ i.fas.fa-check {
     text-align: center;
     width: 400px;
 }
-
+.etsy-safe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.safe-subs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 75vw;
+}
 footer {
   display: flex;
   justify-content: space-between;
