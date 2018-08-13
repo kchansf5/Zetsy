@@ -121,9 +121,25 @@ class Banner extends React.Component {
         <div className="safe-center">
           <div className="safe-header">Etsy keeps you safe</div>
           <div className="safe-subs">
-            <div className="trustworthy">Trustworthy sellers</div>
-            <div className="world">World-class security</div>
-            <div className="purchase">Purchase protection</div>
+            <div className="trustworthy">
+              Trustworthy sellers
+              <div className="trustworthy-sub">
+                You can read their reviews and policies, and contact them with any questions
+              </div>
+            </div>
+            <div className="world">
+              World-class security
+              <div className="world-sub">
+                Safeguarding your information is the top priority of our dedicated security experts
+              </div>
+            </div>
+
+            <div className="purchase">
+              Purchase protection
+              <div className="purchase-sub">
+                If anything goes wrong, our global support team has got your back
+              </div>
+            </div>
           </div>
         </div>
 
