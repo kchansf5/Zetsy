@@ -618,7 +618,7 @@ button.add:hover {
   width: 200px;
   border: 1px solid lightgray;
   height: 330px;
-  background-color: #31486c;
+  background-color: #fc9f2a;
   border-right: none;
   border-bottom-left-radius: 4px;
   border-top-left-radius: 4px;
@@ -627,13 +627,13 @@ button.add:hover {
 
 .slide-text h2 {
   font-size: 15px;
-  color: white;
+  color: black;
 }
 
 h2.top {
   font-family: 'Lato', sans-serif;
   font-size: 12px;
-  color: white;
+  color: black;
 }
 
 h2.middle {
@@ -642,7 +642,7 @@ h2.middle {
   text-align: center;
   font-weight: 100;
   margin: 5px;
-  color: white;
+  color: black;
 }
 
 .bottom {
@@ -664,7 +664,7 @@ i.fas.fa-chevron-right {
     margin-left: 6px;
     font-size: 10px;
     z-index: 10;
-    color: white;
+    color: black;
 }
 
 .slide1-img {
@@ -729,7 +729,7 @@ h2.explore-now {
   margin-left: 18px;
   left: 951px;
   top: 385px;
-  background-color: #31486c;
+  background-color: #fc9f2a;
   padding: 18px 60px;
   padding-right: 185px;
   padding-left: 20px;
@@ -742,13 +742,13 @@ h2.explore-now {
 }
 
 .bottom-right h2 {
-  color: white;
+  color: black;
   font-size: 14px;
 }
 
 .bottom-right i.fas.fa-chevron-right {
   position: relative;
-  -webkit-text-fill-color: white;
+  -webkit-text-fill-color: black;
   bottom: 0.5px;
   left: 1px;
 }
@@ -919,17 +919,41 @@ i.fas.fa-check {
     text-align: center;
     width: 400px;
 }
-.etsy-safe {
+.safe-center {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.safe-subs {
+.etsy-safe {
+  width: 100vw;
+  height: 272px;
+  background-color: #FF883E;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 75vw;
+  align-items: center;
+  justify-content: space-around;
 }
+// .safe-subs {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: space-between;
+//   width: 75vw;
+// }
+.safe-image {
+  background-image: image_url('safe.png');
+  width: 210px;
+  height: 245px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.keys-image {
+  background-image: image_url('keys.png');
+  width: 210px;
+  height: 245px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
