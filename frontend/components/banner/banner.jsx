@@ -78,7 +78,7 @@ class Banner extends React.Component {
         </div>
 
         <div className="inspiration">Inspiration updated daily</div>
-        <div className="inspiration-sub">Make your day a little more interesting</div>
+        {/* <div className="inspiration-sub">Make your day a little more interesting</div> */}
 
         <div className="all-tiles">
           <div className="left-tiles">
