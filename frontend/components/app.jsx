@@ -33,6 +33,12 @@ const App = () => (
           <div className="logo">Zetsy</div>
         </Link>
         <SearchBar />
+        <a href="https://github.com/kchansf5">
+          github
+        </a>
+        <a href="https://www.linkedin.com/in/kchansf5/">
+          linkedin
+        </a>
         <GreetingContainer />
       </header>
 
@@ -53,7 +59,7 @@ const App = () => (
     <footer>
       <a href="#/">
         <div className="footer-logo">Zetsy</div>
-      </a>  
+      </a>
       <ul className="footer-items">
         <li className="slogan">We make it easy to defeat the Calamity.</li>
         <div className="footer-right">
