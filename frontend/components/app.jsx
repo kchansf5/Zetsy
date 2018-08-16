@@ -33,12 +33,14 @@ const App = () => (
           <div className="logo">Zetsy</div>
         </Link>
         <SearchBar />
-        <a href="https://github.com/kchansf5" target="_blank">
-          github
-        </a>
-        <a href="https://www.linkedin.com/in/kchansf5/" target="_blank">
-          linkedin
-        </a>
+        <div className="social-links">
+          <a href="https://github.com/kchansf5" target="_blank">
+            github
+          </a>
+          <a href="https://www.linkedin.com/in/kchansf5/" target="_blank">
+            linkedin
+          </a>
+      </div>
         <GreetingContainer />
       </header>
 
