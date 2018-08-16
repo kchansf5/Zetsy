@@ -149,7 +149,16 @@ a.header-logo {
   background-color: #ff6905;
   border-color: rgba(0, 0, 0, 0.2);
 }
-
+.social-links {
+  position: absolute;
+  left: 1000px;
+  top: 30px;
+}
+.fab {
+  color: #f45800;
+  font-size: 30px;
+  padding-left: 10px;
+}
 .welcome-user {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
