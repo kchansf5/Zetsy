@@ -35,10 +35,10 @@ const App = () => (
         <SearchBar />
         <div className="social-links">
           <a href="https://github.com/kchansf5" target="_blank">
-            github
+            <i class="fab fa-github"></i>
           </a>
           <a href="https://www.linkedin.com/in/kchansf5/" target="_blank">
-            linkedin
+            <i class="fab fa-linkedin"></i>
           </a>
       </div>
         <GreetingContainer />
