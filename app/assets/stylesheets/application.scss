@@ -151,13 +151,18 @@ a.header-logo {
 }
 .social-links {
   position: absolute;
-  left: 1000px;
-  top: 30px;
+  left: 975px;
+  top: 25px;
 }
 .fab {
   color: #f45800;
   font-size: 30px;
-  padding-left: 10px;
+  padding-left: 20px;
+  transition: all 0.3s ease;
+}
+.fab:hover {
+  color: #ff6905;
+  transform: scale(1.2);
 }
 .welcome-user {
   font-family: "Roboto", sans-serif;
