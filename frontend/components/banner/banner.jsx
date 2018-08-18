@@ -21,7 +21,7 @@ class Banner extends React.Component {
                     </div>
                   </div>
                 </div>
-                <img className="slide1-img" src="https://images6.alphacoders.com/516/thumb-1920-516665.jpg" />
+                <div className="slide1-img"></div>
               </div>
           </div>
         </Link>
@@ -35,7 +35,8 @@ class Banner extends React.Component {
               <div className="arrow-box">
                 <i class="fas fa-chevron-right"></i>
               </div>
-                <img className="top-right-img" src="https://www.zeldadungeon.net/wp-content/uploads/2017/03/Oman-Au-Shrine.jpg" />
+                {/* <img className="top-right-img" src="https://www.zeldadungeon.net/wp-content/uploads/2017/03/Oman-Au-Shrine.jpg" /> */}
+                <div className="top-right-img"></div>
             </div>
           </Link>
 

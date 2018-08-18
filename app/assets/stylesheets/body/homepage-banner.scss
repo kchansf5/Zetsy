@@ -75,6 +75,9 @@ i.fas.fa-chevron-right {
   border-radius: 4px;
   border-bottom-left-radius: 0px;
   border-top-left-radius: 0px;
+  background-image: image_url("fields.jpg");
+  background-size: 105%;
+
 }
 .top-right {
   margin-left: 18px;
@@ -107,13 +110,15 @@ h2.explore-now {
     padding-top: 105px;
     font-size: 15px;
 }
-.top-right img {
+.top-right-img {
   position: relative;
   margin-top: -8px;
   object-fit: cover;
   height: 100%;
   box-sizing: border-box;
   border-radius: 3px;
+  background-image: image_url("shrine.jpg");
+  background-size: 105%;
 }
 .bottom-right {
   display: flex;
