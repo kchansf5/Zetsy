@@ -1,0 +1,111 @@
+.inspiration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+.inspiration-sub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.all-tiles {
+  margin-bottom: 100px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 1300px;
+}
+.left-tiles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.right-tiles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.small-tiles {
+  display: flex;
+  flex-direction: row;
+}
+#small {
+  transition: all .2s ease-in-out;
+}
+#small:hover{
+  transform: scale(1.02);
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, .25);
+}
+.small-tile-1 {
+  width: 300px;
+  height: 200px;
+  /*border: 1px solid blue;*/
+  background-image: image_url('desert.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 15px;
+}
+.small-tile-2 {
+  width: 300px;
+  height: 200px;
+  /*border: 1px solid blue;*/
+  background-image: image_url('paraglider.png');
+  background-size: 110%;
+  background-repeat: no-repeat;
+  margin: 15px;
+}
+.small-tile-3 {
+  width: 300px;
+  height: 200px;
+  /*border: 1px solid blue;*/
+  background-image: image_url('traveler_shield.png');
+  background-size: 120%;
+  background-repeat: no-repeat;
+  margin: 15px;
+}
+.small-tile-4 {
+  width: 300px;
+  height: 200px;
+  /*border: 1px solid blue;*/
+  background-image: image_url('camp.png');
+  background-size: 120%;
+  background-repeat: no-repeat;
+  margin: 15px;
+}
+#large {
+  transition: all .2s ease-in-out;
+}
+#large:hover{
+  transform: scale(1.01);
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, .25);
+}
+.large-tile-1 {
+  /*border: 1px solid blue;*/
+  width: 632px;
+  height: 632px;
+  background-image: image_url('snow.png');
+  background-size: 115%;
+  background-repeat: no-repeat;
+  margin: 15px;
+}
+.large-tile-2 {
+  /*border: 1px solid blue;*/
+  width: 632px;
+  height: 632px;
+  background-image: image_url('climb.png');
+  background-size: 116%;
+  background-repeat: no-repeat;
+  margin: 15px;
+}
+.large-tile-1:hover{
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, .25);
+}
+.large-tile-2:hover{
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, .25);
+}

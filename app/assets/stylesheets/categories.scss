@@ -1,0 +1,23 @@
+.category_nav {
+  border-top: 1px solid #E1E3DF;
+  border-bottom: 1px solid #E1E3DF;
+  margin-top: -10px;
+}
+ul.categories {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px 0px;
+  padding-bottom: 0px;
+  margin: 3px 80px;
+}
+ul.categories li {
+  list-style: none;
+  padding: 0px 28px;
+  padding-bottom: 5px;
+  color: #464646;
+}
+ul.categories li:hover {
+    border-bottom: 3px solid #ff6905;
+    margin-bottom: -3px;
+    cursor: pointer;
+}

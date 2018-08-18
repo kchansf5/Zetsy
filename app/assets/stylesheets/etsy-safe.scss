@@ -1,0 +1,77 @@
+.safe-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -30px;
+}
+.etsy-safe {
+  width: 100vw;
+  height: 272px;
+  background-color: #FF883E;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 150px;
+}
+.safe-image {
+  background-image: image_url('safe.png');
+  width: 210px;
+  height: 245px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.safe-header {
+    font-size: 42px;
+    font-family: 'Nanum Myeongjo', serif;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.safe-subs {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  text-align: center;
+  justify-content: space-between;
+  width: 70vw;
+  margin-top: 15px;
+  color: white;
+}
+.trustworthy {
+  width: 20vw;
+  font-size: 18px;
+  font-weight: bold;
+}
+.trustworthy-sub {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: lighter;
+}
+.world {
+  width: 20vw;
+  font-size: 18px;
+  font-weight: bold;
+}
+.world-sub {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: lighter;
+}
+.purchase {
+  width: 20vw;
+  font-size: 18px;
+  font-weight: bold;
+}
+.purchase-sub {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: lighter;
+}
+.keys-image {
+  background-image: image_url('keys.png');
+  width: 210px;
+  height: 245px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}

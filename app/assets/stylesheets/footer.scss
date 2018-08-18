@@ -1,0 +1,45 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #E1E3DF;
+}
+.footer-logo {
+  color: #f45800;
+  font-family: "Song Myung", serif;
+  font-size: 32px;
+  text-decoration: none;
+  height: 0px;
+  padding-left: 50px;
+  margin-top: 15px;
+}
+
+.footer-items {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-right: 20px;
+  margin-bottom: 27px;
+  margin-top: 28px;
+  width: 100%;
+}
+.footer-right {
+  display: flex;
+}
+.footer-items li {
+  margin-right: 38px;
+  font-weight: 100;
+  color: #222;
+  padding-bottom: 1px;
+}
+footer li :active, :visited {
+  text-decoration: none;
+  color: black;
+}
+footer li :hover {
+  color: #f45800;
+}
+li.slogan {
+  right: 648px;
+  font-size: 13px;
+  bottom: 3px;
+}

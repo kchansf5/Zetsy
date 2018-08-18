@@ -1,0 +1,149 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+}
+.slide1{
+  height: 320px;
+  width: 585px;
+}
+.slide1 {
+  display: flex;
+  height: 330px;
+  width: 870px;
+}
+.slide1:hover {
+  cursor: pointer;
+}
+.slide-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  border: 1px solid lightgray;
+  height: 330px;
+  background-color: #fc9f2a;
+  border-right: none;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  padding: 0px 40px;
+}
+.slide-text h2 {
+  font-size: 15px;
+  color: black;
+}
+h2.top {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  color: black;
+}
+h2.middle {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 22px;
+  text-align: center;
+  font-weight: 100;
+  margin: 5px;
+  color: black;
+}
+.bottom {
+  display: flex;
+  flex-direction: row;
+}
+.arrow-box {
+  width: 8px;
+  height: 8px;
+}
+h2.bottom {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+}
+i.fas.fa-chevron-right {
+    margin-top: 16px;
+    margin-left: 6px;
+    font-size: 10px;
+    z-index: 10;
+    color: black;
+}
+.slide1-img {
+  height: 330px;
+  width: 585px;
+  object-fit: cover;
+  border: 1px solid lightgray;
+  border-left: none;
+  border-radius: 4px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+.top-right {
+  margin-left: 18px;
+  display: flex;
+  flex-direction: column;
+  width: 425px;
+  height: 230px;
+  border: 1px solid lightgray;
+  border-radius: 4px;;
+}
+.top-right:hover {
+    cursor: pointer;
+}
+.top-right h2 {
+  margin-left: 24px;
+  padding-top: 35px;
+  font-size: 19px;
+  position: absolute;
+  color: white;
+  z-index: 10;
+  width: 231px;
+}
+.top-right i.fas.fa-chevron-right {
+  position: relative;
+  -webkit-text-fill-color: white;
+  top: 106px;
+  left: 107px;
+}
+h2.explore-now {
+    padding-top: 105px;
+    font-size: 15px;
+}
+.top-right img {
+  position: relative;
+  margin-top: -8px;
+  object-fit: cover;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+.bottom-right {
+  display: flex;
+  margin-top: 23px;
+  margin-left: 18px;
+  left: 951px;
+  top: 385px;
+  background-color: #fc9f2a;
+  padding: 18px 60px;
+  padding-right: 185px;
+  padding-left: 20px;
+  border-radius: 4px;
+  border: 1px solid lightgray;
+}
+.bottom-right:hover {
+  cursor: pointer;
+}
+.bottom-right h2 {
+  color: black;
+  font-size: 14px;
+}
+.bottom-right i.fas.fa-chevron-right {
+  position: relative;
+  -webkit-text-fill-color: black;
+  bottom: 0.5px;
+  left: 1px;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  margin: 40px 55px;
+  margin-top: 20px;
+}

@@ -1,0 +1,96 @@
+.modal-background {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.25);
+  z-index: 10;
+}
+.modal-child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.close-x {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+.session-errors {
+  color: red;
+  list-style-type: none;
+  margin-left: -40.5px;
+}
+.login-form-box {
+  height: 300px;
+  width: 350px;
+  padding-left: 35px;
+  padding-right: 15px;
+  background: white;
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: 0;
+  color: #444;
+}
+.login-input {
+  border: 1px solid #c2c2c2;
+  border-right: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  margin-top: 5px;
+}
+.session-top {
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.session-top button {
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #f45800;
+  padding-left: 2px;
+}
+.session-top button:hover{
+  background-color: white;
+  text-decoration: underline;
+}
+.session-top button:focus{
+  outline: none;
+}
+.session-submit {
+  position: absolute;
+  top: 230px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: white;
+  background-color: #f45800;
+  border-color: rgba(0, 0, 0, 0.1);
+  width: 200px;
+  padding-top: 7px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 15px;
+  text-align: top;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.session-submit:hover {
+  background-color: #ff6905;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+.session-submit:focus{
+  outline: none;
+}
+.login-input {
+  padding-bottom: 6px;
+  margin-bottom: 5px;
+  width: 194px;
+  font-size: 12px;
+  color: #333;
+}

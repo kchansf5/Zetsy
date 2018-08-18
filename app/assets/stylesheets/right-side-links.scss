@@ -1,0 +1,80 @@
+.social-links {
+  position: absolute;
+  left: 975px;
+  top: 25px;
+}
+.fab {
+  color: #f45800;
+  font-size: 30px;
+  padding-left: 20px;
+  transition: all 0.3s ease;
+}
+.fab:hover {
+  color: #ff6905;
+  transform: scale(1.2);
+}
+.logged-out-cart {
+  right: -110px;
+  position: absolute;
+  top: -3px;
+}
+i.fas.fa-shopping-cart {
+  position: absolute;
+  right: 70px;
+  top: 16px;
+  font-size: 18px;
+  -webkit-text-fill-color: #666666;
+  cursor: pointer;
+  border-left: 1px solid lightgray;
+  line-height: 30px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  border-color: #e5e5e5;
+}
+.fas.fa-shopping-cart:hover {
+  -webkit-text-fill-color: black;
+}
+.cart-text:hover {
+  -webkit-text-fill-color: black;
+}
+.cart-text {
+  position: absolute;
+  margin-top: -1px;
+  right: 67px;
+  color: #888888;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+}
+.cart-text1 {
+  position: absolute;
+  margin-top: 47px;
+  right: 67px;
+  color: #888888;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+}
+cart.cart-text {
+    position: absolute;
+    top: 47px;
+}.welcome-user {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  position: absolute;
+  right: 210px;
+  top: 15px;
+  font-weight: 100;
+}
+.login-signup {
+  position: absolute;
+  right: 100px;
+  margin-right: 15px;
+  padding-bottom: 24px;
+}
+.top-register-button {
+  border: none;
+  margin: 0px;
+}
+.top-register-button:hover {
+  background-color: white;
+  text-decoration: underline;
+}

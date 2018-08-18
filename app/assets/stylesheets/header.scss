@@ -1,0 +1,39 @@
+head {
+  height: auto;
+  width: auto;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+header button {
+  background: none;
+  color: #f45800;
+  border: 1px solid #f45800;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-size: 14px;
+  padding: 5px 9px 7px 9px;
+  height: 35px;
+  margin-left: 15px;
+  margin: 18px 5px 13px 5px;
+}
+header button:focus {
+  outline: none;
+}
+.header-group {
+  display: flex;
+  flex-direction: row;
+  color: #f45800;
+}
+.header-name {
+  margin-right: 10px;
+}
+.header-group .logout {
+  position: absolute;
+  top: 3px;
+  right: 120px;
+}
