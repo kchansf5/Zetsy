@@ -35,7 +35,6 @@ class Banner extends React.Component {
               <div className="arrow-box">
                 <i class="fas fa-chevron-right"></i>
               </div>
-                {/* <img className="top-right-img" src="https://www.zeldadungeon.net/wp-content/uploads/2017/03/Oman-Au-Shrine.jpg" /> */}
                 <div className="top-right-img"></div>
             </div>
           </Link>
@@ -79,7 +78,6 @@ class Banner extends React.Component {
         </div>
 
         <div className="inspiration">Inspiration updated daily</div>
-        {/* <div className="inspiration-sub">Make your day a little more interesting</div> */}
 
         <div className="all-tiles">
           <div className="left-tiles">
