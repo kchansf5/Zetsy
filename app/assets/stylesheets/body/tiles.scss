@@ -40,7 +40,7 @@
 }
 #small:hover{
   transform: scale(1.02);
-  box-shadow: 2px 3px 5px rgba(0, 0, 0, .25);
+  box-shadow: 2px 3px 5px rgba(255,105,5,0.25);
 }
 .small-tile-1 {
   width: 300px;
@@ -83,7 +83,7 @@
 }
 #large:hover{
   transform: scale(1.01);
-  box-shadow: 2px 3px 5px rgba(0, 0, 0, .25);
+  box-shadow: 2px 3px 5px rgba(255,105,5,0.25);
 }
 .large-tile-1 {
   /*border: 1px solid blue;*/
@@ -104,8 +104,8 @@
   margin: 15px;
 }
 .large-tile-1:hover{
-  box-shadow: 2px 3px 5px rgba(0, 0, 0, .25);
+  box-shadow: 2px 3px 5px rgba(255,105,5,0.25);
 }
 .large-tile-2:hover{
-  box-shadow: 2px 3px 5px rgba(0, 0, 0, .25);
+  box-shadow: 2px 3px 5px rgba(255,105,5,0.25);
 }
